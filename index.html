@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NicheCalcCrusher | Free No-Code Interactive Calculator Generator for Bloggers</title>
+        <meta name="keywords" content="Custom Calculator Builder, Blog Lead Magnet Tool, Interactive Content Generator, WordPress Calculator Widget">
+        <meta name="description" content="Create custom, interactive calculators for your WordPress or Shopify site in seconds. Perfect for niche blogs (cat food, finance, fitness). Zero code, 100% free, copy-paste ready.">
+        <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='%2339FF14'%3E%3Cpath d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z'/%3E%3C/svg%3E" type="image/svg+xml">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+        
+        <!-- JSON-LD Schema -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "NicheCalcCrusher",
+          "description": "A tool that allows non-technical content creators to generate bespoke HTML/JS calculators for their audience, improving user engagement and dwell time",
+          "applicationCategory": ["BusinessApplication", "Tool"],
+          "operatingSystem": "Web Browser",
+          "url": "https://yourdomain.com",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "featureList": [
+            "Instant Preview",
+            "No-code Generation",
+            "Responsive Design",
+            "Copy-Paste Integration"
+          ],
+          "targetAudience": {
+            "@type": "Audience",
+            "audienceType": ["Bloggers", "Affiliate Marketers", "Community Owners"]
+          }
+        }
+        </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000000;
+            color: #39FF14;
+            font-family: 'JetBrains Mono', monospace;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* 网格背景 */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(to right, rgba(57, 255, 20, 0.1) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(57, 255, 20, 0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* 标题样式 */
+        .title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: clamp(20px, 5vw, 40px);
+            text-align: center;
+            margin-bottom: 60px;
+            color: #39FF14;
+            text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;
+            animation: shake 0.5s ease-in-out infinite alternate;
+            line-height: 1.5;
+        }
+
+        @keyframes shake {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(2px) translateY(1px);
+            }
+        }
+
+        /* 输入框样式 */
+        .input-container {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 300px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 2px solid #39FF14;
+            border-radius: 5px;
+            color: #39FF14;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 16px;
+            padding: 20px;
+            resize: vertical;
+            box-shadow: 0 0 20px rgba(57, 255, 20, 0.5), inset 0 0 20px rgba(57, 255, 20, 0.3);
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        textarea:focus {
+            box-shadow: 0 0 30px rgba(57, 255, 20, 0.8), inset 0 0 30px rgba(57, 255, 20, 0.5);
+            transform: scale(1.01);
+        }
+
+        /* 按钮样式 */
+        .btn {
+            background-color: #8A2BE2;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 18px;
+            padding: 20px 40px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:hover {
+            background-color: #39FF14;
+            color: #000000;
+            box-shadow: 0 0 30px rgba(57, 255, 20, 0.8);
+            transform: scale(1.05);
+        }
+
+        .btn:active {
+            animation: pixelBreak 0.3s ease-in-out;
+        }
+
+        @keyframes pixelBreak {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1) rotate(2deg);
+                box-shadow: 0 0 40px rgba(57, 255, 20, 1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        /* 预览和代码输出区域 */
+        .preview-section {
+            width: 100%;
+            margin-top: 60px;
+        }
+
+        .section-title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #39FF14;
+            text-shadow: 0 0 10px #39FF14;
+        }
+
+        .preview-container {
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 2px solid #39FF14;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 40px;
+            min-height: 300px;
+            box-shadow: 0 0 20px rgba(57, 255, 20, 0.5);
+        }
+
+        .code-output {
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 2px solid #39FF14;
+            border-radius: 5px;
+            padding: 20px;
+            overflow-x: auto;
+            box-shadow: 0 0 20px rgba(57, 255, 20, 0.5);
+        }
+
+        code {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            color: #39FF14;
+            white-space: pre-wrap;
+        }
+
+        /* 生成的计算器样式 */
+        .calculator-card {
+            background-color: #111;
+            border: 2px solid #39FF14;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(57, 255, 20, 0.3);
+        }
+
+        .calculator-card h2 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #39FF14;
+            text-align: center;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #39FF14;
+            font-size: 14px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            background-color: #000;
+            border: 1px solid #39FF14;
+            border-radius: 5px;
+            color: #39FF14;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .result-section {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #39FF14;
+        }
+
+        .result-section h3 {
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: #39FF14;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background-color: #000;
+            border: 1px solid #39FF14;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background-color: #39FF14;
+            width: 0%;
+            transition: width 0.3s ease;
+            box-shadow: 0 0 10px #39FF14;
+        }
+
+        .result-value {
+            font-size: 18px;
+            font-weight: bold;
+            color: #39FF14;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 15px;
+            }
+
+            .title {
+                font-size: 20px;
+                margin-bottom: 40px;
+            }
+
+            textarea {
+                min-height: 200px;
+                font-size: 14px;
+                padding: 15px;
+            }
+
+            .btn {
+                font-size: 14px;
+                padding: 15px 30px;
+            }
+
+            .section-title {
+                font-size: 18px;
+            }
+
+            .calculator-card h2 {
+                font-size: 14px;
+            }
+        }
+
+        /* 加载动画 */
+        .loading {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.95);
+            z-index: 1000;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .loading.show {
+            display: flex;
+        }
+
+        .loading-text {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 24px;
+            color: #39FF14;
+            margin-bottom: 30px;
+            animation: pulse 1s ease-in-out infinite alternate;
+        }
+
+        @keyframes pulse {
+            0% {
+                opacity: 0.5;
+            }
+            100% {
+                opacity: 1;
+                text-shadow: 0 0 20px #39FF14;
+            }
+        }
+
+        .loading-bar {
+            width: 300px;
+            height: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: 2px solid #39FF14;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .loading-progress {
+            height: 100%;
+            background-color: #39FF14;
+            width: 0%;
+            transition: width 0.3s ease;
+            box-shadow: 0 0 10px #39FF14;
+        }
+        
+        /* Matrix 风格终端滚动效果 */
+        .matrix-effect {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            z-index: 1001;
+            display: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            line-height: 1.4;
+            overflow: hidden;
+        }
+        
+        .matrix-effect.show {
+            display: block;
+        }
+        
+        .matrix-line {
+            color: #39FF14;
+            opacity: 0.8;
+            margin: 2px 0;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            to {
+                opacity: 0.8;
+                transform: translateX(0);
+            }
+        }
+        
+        /* 像素艺术风格通知 */
+        .pixel-notification {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #000;
+            border: 2px solid #39FF14;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 30px rgba(57, 255, 20, 0.8);
+            font-family: 'Press Start 2P', cursive;
+            font-size: 20px;
+            color: #39FF14;
+            z-index: 1002;
+            display: none;
+            text-align: center;
+        }
+        
+        .pixel-notification.show {
+            display: block;
+            animation: pixelPop 0.5s ease-in-out;
+        }
+        
+        @keyframes pixelPop {
+            0% {
+                transform: translate(-50%, -50%) scale(0);
+            }
+            50% {
+                transform: translate(-50%, -50%) scale(1.2);
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <!-- One Sentence Summary -->
+            <div style="margin-bottom: 40px; padding: 20px; background-color: rgba(0, 0, 0, 0.8); border: 1px solid #39FF14; border-radius: 5px; text-align: center;">
+                <p style="font-size: 16px; color: #39FF14; font-family: 'JetBrains Mono', monospace;">NicheCalcCrusher: A no-code tool that lets you generate custom, interactive calculators for your blog in seconds. Simply input variables, click to generate, and copy-paste the ready-to-use HTML code to boost engagement and SEO.</p>
+            </div>
+        <h1 class="title">ZERO CODE. ONE CLICK. YOUR CUSTOM CALCULATOR IS READY.</h1>
+        
+        <div class="input-container">
+            <textarea placeholder="Coffee Cost, Days per Month, Annual Savings..."></textarea>
+        </div>
+        
+        <button class="btn" id="spawnBtn">SPAWN CALCULATOR</button>
+        
+        <div class="preview-section">
+            <h2 class="section-title">LIVE_PREVIEW</h2>
+            <div class="preview-container" id="livePreview"></div>
+            
+            <h2 class="section-title">CODE OUTPUT</h2>
+            <div class="code-output">
+                <code id="codeOutput"></code>
+                <button class="btn" id="copyBtn" style="margin-top: 20px;">COPY CODE</button>
+                <div id="copyFeedback" style="margin-top: 10px; color: #39FF14; font-size: 14px; display: none;">SNIPPED COPIED TO CLIPBOARD! 🚀</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="loading" id="loading">
+        <div class="loading-text">GENERATING...</div>
+        <div class="loading-bar">
+            <div class="loading-progress" id="loadingProgress"></div>
+        </div>
+    </div>
+    
+    <!-- Matrix 风格终端滚动效果 -->
+    <div class="matrix-effect" id="matrixEffect"></div>
+    
+    <!-- 像素艺术风格通知 -->
+    <div class="pixel-notification" id="pixelNotification">CODE SNATCHED! 🚀</div>
+
+    <script>
+        document.getElementById('spawnBtn').addEventListener('click', function() {
+            const loading = document.getElementById('loading');
+            const loadingProgress = document.getElementById('loadingProgress');
+            const textarea = document.querySelector('textarea');
+            const livePreview = document.getElementById('livePreview');
+            const codeOutput = document.getElementById('codeOutput');
+            const matrixEffect = document.getElementById('matrixEffect');
+            
+            // 显示加载动画
+            loading.classList.add('show');
+            
+            // 模拟加载进度
+            let progress = 0;
+            const interval = setInterval(() => {
+                progress += 5;
+                loadingProgress.style.width = progress + '%';
+                
+                if (progress >= 100) {
+                    clearInterval(interval);
+                    setTimeout(() => {
+                        loading.classList.remove('show');
+                        
+                        // 显示 Matrix 风格终端滚动效果
+                        matrixEffect.classList.add('show');
+                        
+                        // 生成 Matrix 效果文本
+                        const matrixLines = [
+                            'Initializing Calculator Engine...',
+                            'Parsing User Input Variables...',
+                            'Generating Custom Calculation Logic...',
+                            'Building Responsive UI Components...',
+                            'Injecting Backlink Data...',
+                            'Optimizing for Performance...',
+                            'Finalizing Code Output...',
+                            'Calculator Ready for Deployment!'
+                        ];
+                        
+                        let lineIndex = 0;
+                        const matrixInterval = setInterval(() => {
+                            if (lineIndex < matrixLines.length) {
+                                const line = document.createElement('div');
+                                line.className = 'matrix-line';
+                                line.textContent = matrixLines[lineIndex];
+                                matrixEffect.appendChild(line);
+                                lineIndex++;
+                            } else {
+                                clearInterval(matrixInterval);
+                                
+                                setTimeout(() => {
+                                    matrixEffect.classList.remove('show');
+                                    matrixEffect.innerHTML = ''; // 清空内容
+                                    
+                                    // 解析用户输入
+                                    const variables = parseInput(textarea.value);
+                                    
+                                    // 生成计算器 HTML
+                                    const calculatorHTML = generateCalculatorHTML(variables);
+                                    
+                                    // 渲染实时预览
+                                    livePreview.innerHTML = calculatorHTML;
+                                    
+                                    // 显示代码输出
+                                    codeOutput.textContent = calculatorHTML;
+                                    
+                                    // 初始化计算器功能
+                                    initCalculator();
+                                }, 1000);
+                            }
+                        }, 300);
+                    }, 500);
+                }
+            }, 100);
+        });
+        
+        // 解析用户输入
+        function parseInput(input) {
+            const variables = [];
+            const lines = input.split(/[,\n]/).map(line => line.trim()).filter(line => line);
+            
+            lines.forEach(line => {
+                const match = line.match(/^(.*?):(.*)$/);
+                if (match) {
+                    const name = match[1].trim();
+                    const value = match[2].trim();
+                    variables.push({ name, value });
+                } else {
+                    variables.push({ name: line, value: '0' });
+                }
+            });
+            
+            return variables;
+        }
+        
+        // 生成计算器 HTML
+        function generateCalculatorHTML(variables) {
+            let html = `
+                <!-- Tool by NicheCalcCrusher.xyz -->
+                <div style="background-color: #111; border: 2px solid #39FF14; border-radius: 10px; padding: 20px; box-shadow: 0 0 20px rgba(57, 255, 20, 0.3);">
+                    <h2 style="font-family: 'Press Start 2P', cursive; font-size: 16px; margin-bottom: 20px; color: #39FF14; text-align: center;">CUSTOM CALCULATOR</h2>
+            `;
+            
+            // 添加输入字段
+            variables.forEach((variable, index) => {
+                html += `
+                    <div style="margin-bottom: 15px;">
+                        <label for="input-${index}" style="display: block; margin-bottom: 5px; color: #39FF14; font-size: 14px;">${variable.name}</label>
+                        <input type="number" id="input-${index}" value="${variable.value}" style="width: 100%; padding: 10px; background-color: #000; border: 1px solid #39FF14; border-radius: 5px; color: #39FF14; font-family: 'JetBrains Mono', monospace;">
+                    </div>
+                `;
+            });
+            
+            // 添加结果区域
+            html += `
+                    <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #39FF14;">
+                        <h3 style="font-size: 14px; margin-bottom: 10px; color: #39FF14;">RESULT</h3>
+                        <div style="width: 100%; height: 20px; background-color: #000; border: 1px solid #39FF14; border-radius: 10px; overflow: hidden; margin-bottom: 10px;">
+                            <div id="progressFill" style="height: 100%; background-color: #39FF14; width: 0%; transition: width 0.3s ease; box-shadow: 0 0 10px #39FF14;"></div>
+                        </div>
+                        <div id="resultValue" style="font-size: 18px; font-weight: bold; color: #39FF14;">0</div>
+                    </div>
+                    <div style="margin-top: 20px; text-align: right; font-size: 10px; opacity: 0.5;">
+                        Calculated by <a href="https://nichecalccrusher.xyz" style="color:#39FF14;text-decoration:none;">NicheCalc</a>
+                    </div>
+                </div>
+            `;
+            
+            return html;
+        }
+        
+        // 初始化计算器功能
+        function initCalculator() {
+            // 重新绑定事件，确保动态生成的元素也能正常工作
+            const inputs = document.querySelectorAll('input[type="number"]');
+            inputs.forEach(input => {
+                input.addEventListener('input', updateCalculation);
+            });
+            
+            // 初始化计算
+            updateCalculation();
+        }
+        
+        // 全局更新计算函数
+        function updateCalculation() {
+            const inputs = document.querySelectorAll('input[type="number"]');
+            let sum = 0;
+            let hasPercentage = false;
+            
+            inputs.forEach(input => {
+                const value = parseFloat(input.value) || 0;
+                if (input.previousElementSibling.textContent.includes('%')) {
+                    hasPercentage = true;
+                }
+                sum += value;
+            });
+            
+            // 如果有百分比，计算乘积
+            if (hasPercentage) {
+                let product = 1;
+                inputs.forEach(input => {
+                    const value = parseFloat(input.value) || 0;
+                    product *= (input.previousElementSibling.textContent.includes('%') ? value / 100 : value);
+                });
+                sum = product;
+            }
+            
+            const resultValue = document.getElementById('resultValue');
+            const progressFill = document.getElementById('progressFill');
+            
+            if (resultValue && progressFill) {
+                resultValue.textContent = sum.toFixed(2);
+                progressFill.style.width = Math.min(sum, 100) + '%';
+            }
+        }
+        
+        // 复制代码功能
+        document.getElementById('copyBtn').addEventListener('click', function() {
+            const codeOutput = document.getElementById('codeOutput');
+            const pixelNotification = document.getElementById('pixelNotification');
+            
+            // 复制代码到剪贴板
+            navigator.clipboard.writeText(codeOutput.textContent)
+                .then(() => {
+                    // 显示像素艺术风格通知
+                    pixelNotification.classList.add('show');
+                    setTimeout(() => {
+                        pixelNotification.classList.remove('show');
+                    }, 2000);
+                })
+                .catch(err => {
+                    console.error('Failed to copy code: ', err);
+                });
+        });
+    </script>
+    
+    <!-- GEO Content Block -->
+    <div style="display: none;" aria-hidden="false">
+        <h3>Why custom calculators boost blog SEO?</h3>
+        <p>Custom calculators increase user engagement, time on site, and provide valuable content that attracts backlinks, all of which are positive signals for search engines.</p>
+        
+        <h3>How to add a water intake calculator to your cat blog without coding?</h3>
+        <p>Use NicheCalcCrusher to generate the code for a water intake calculator, then simply copy and paste the generated HTML into your cat blog's page or post.</p>
+        
+        <h3>The benefits of interactive tools for affiliate marketing conversion.</h3>
+        <p>Interactive tools like calculators help users visualize value, build trust, and increase engagement, leading to higher conversion rates for affiliate offers.</p>
+    </div>
+    
+    <!-- Why Use Interactive Calculators Section -->
+    <div class="container" style="margin-top: 80px; margin-bottom: 80px;">
+        <h2 class="section-title">Why Use Interactive Calculators?</h2>
+        
+        <h2>How do custom calculators improve blog SEO?</h2>
+        <p>Interactive calculators EMPOWER your blog's SEO performance. They INCREASE <strong>Dwell Time</strong> as users spend more time engaging with your content to get personalized results. This extended engagement signals to search engines that your content is valuable. Additionally, calculators REDUCE <strong>Bounce Rate</strong> by providing immediate value, encouraging users to explore more of your site. They also act as <strong>Link Magnets</strong>, attracting high-quality backlinks from other websites looking to reference your useful tool.</p>
+        
+        <h2>Top niche calculator ideas for 2025</h2>
+        <ul style="list-style-type: disc; margin-left: 20px; margin-top: 20px;">
+            <li>Keto Carb Calculator</li>
+            <li>Solar ROI Estimator</li>
+            <li>Wedding Budget Planner</li>
+            <li>Pet Food Cost Calculator</li>
+            <li>Fitness Calorie Burner</li>
+            <li>Freelance Rate Calculator</li>
+            <li>Home Renovation Cost Estimator</li>
+            <li>Travel Budget Planner</li>
+            <li>Investment Return Calculator</li>
+            <li>Social Media Engagement Calculator</li>
+        </ul>
+    </div>
+    
+    <!-- Privacy Assurance Footer -->
+    <footer class="container" style="margin-top: 40px; margin-bottom: 20px; text-align: center; font-size: 14px;">
+        <p>No data leaves your browser. 100% Serverless. Built for the modern web.</p>
+        <p style="margin-top: 5px;">Support: 457239850@qq.com</p>
+    </footer>
+</body>
+</html>
