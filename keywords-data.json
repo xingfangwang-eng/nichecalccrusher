@@ -1,0 +1,1318 @@
+{
+  "real-estate-london": {
+    "id": "real-estate-london",
+    "local_insight": "Navigating the London property market in 2025-2026 requires a deep understanding of the shifting Stamp Duty Land Tax (SDLT) thresholds. Following the expiration of temporary relief measures, investors must account for the 5% surcharge on additional properties and the specific tax brackets for non-UK residents. With London's rental yields currently averaging between 4.5% and 6%, precision in calculating net ROI is vital, especially considering the Renters’ Rights Bill impacts on professional landlords and the increasing importance of EPC ratings on valuation and financing terms in the Greater London area.",
+    "step_by_step_guide": [
+      "Enter the purchase price and determine your residency status to calculate the exact SDLT liability.",
+      "Input projected monthly rent based on current borough-specific data (e.g., Hackney vs. Wandsworth).",
+      "Factor in a 10-15% buffer for management fees and mandatory safety compliance costs."
+    ]
+  },
+  "solar-texas": {
+    "id": "solar-texas",
+    "local_insight": "The Texas solar market is uniquely shaped by the ERCOT grid's volatility and the state's deregulated energy market. Unlike other states, Texas offers a 'Wild West' of buy-back programs where ROI depends heavily on your specific Retail Electric Provider (REP). With the Federal Investment Tax Credit (ITC) sitting at 30%, homeowners in high-sunlight regions like Plano or Austin can see a payback period of under 8 years, but only if they optimize their 'Net Metering' equivalent. Our tool factors in current TXU and Reliant buy-back trends to ensure your energy independence doesn't come with hidden grid fees.",
+    "step_by_step_guide": [
+      "Verify your local REP's current buy-back rate to see if they offer 1-to-1 net metering credits.",
+      "Input your roof's average sun hours—Texas averages 5.5 hours, but West Texas can reach 6+.",
+      "Apply the 30% Federal Tax Credit to your total system cost to see the immediate out-of-pocket reduction."
+    ]
+  },
+  "tax-california": {
+    "id": "tax-california",
+    "local_insight": "California’s tax landscape for freelancers is one of the most complex in the US, featuring high progressive state income tax brackets and the strict AB5 'gig work' classification. Beyond federal SE tax, CA residents must navigate the Mental Health Services Tax for high earners and the specific requirements of the Franchise Tax Board (FTB). In 2025-2026, staying compliant means rigorous tracking of 1099-NEC income and estimated quarterly payments. Our estimator helps you set aside the correct percentage so you aren't blindsided by the 'California Tax' at year-end.",
+    "step_by_step_guide": [
+      "Categorize your gross 1099 income and deduct CA-specific business expenses like home office credits.",
+      "Estimate your CA State Income Tax bracket based on your total household adjusted gross income.",
+      "Generate a quarterly payment schedule to avoid FTB underpayment penalties."
+    ]
+  },
+  "wedding-nyc": {
+    "id": "wedding-nyc",
+    "local_insight": "Planning a wedding in NYC is a logistical feat where venue costs in Manhattan often command a 40% premium over the outer boroughs. In 2026, 'micro-weddings' in Brooklyn lofts are trending, but service labor costs in the city remain at an all-time high due to union regulations and high demand. Our planner accounts for the 'NYC Premium,' including the mandatory 8.875% sales tax and the standard 20-22% service charge seen at top venues like the Bowery Hotel or 501 Union. Precision budgeting here is the difference between a dream wedding and a financial nightmare.",
+    "step_by_step_guide": [
+      "Define your 'Guest Count vs. Borough' ratio—Manhattan venues often have strict capacity minimums.",
+      "Allocate 50% of your budget to 'Catering & Venue' to account for NYC's high food and labor costs.",
+      "Set aside a 10% 'City Contingency' fund for unexpected permits or logistical surcharges."
+    ]
+  },
+  "mortgage-sydney": {
+    "id": "mortgage-sydney",
+    "local_insight": "Sydney’s mortgage market is highly sensitive to the Reserve Bank of Australia’s (RBA) cash rate decisions. With property prices in the North Shore and Eastern Suburbs remaining resilient, first-home buyers must navigate the First Home Buyer Choice scheme and the intricacies of Lenders Mortgage Insurance (LMI) if their deposit is under 20%. In 2025, 'stress testing' your mortgage against a 2% rate rise is no longer optional—it’s a survival tactic. Our Sydney-specific tool calculates your borrowing power while factoring in NSW Stamp Duty concessions and local land tax implications.",
+    "step_by_step_guide": [
+      "Calculate your deposit percentage to determine if you trigger the LMI (Lenders Mortgage Insurance) fee.",
+      "Input your household income and apply the RBA 'Stress Test' buffer to see your safe borrowing limit.",
+      "Check eligibility for NSW First Home Buyer grants to reduce your upfront stamp duty costs."
+    ]
+  },
+  "airbnb-florida": {
+    "id": "airbnb-florida",
+    "local_insight": "The Florida short-term rental market is currently navigating a surge in county-specific regulations and skyrocketing property insurance premiums. In coastal hubs like Miami or Destin, ROI is no longer just about occupancy—it’s about managing the 'Tourist Development Tax' and the rising costs of hurricane-resilient maintenance. Our 2026 model factors in seasonal flux (peak winter vs. humid summer) and local permit fees which can vary wildly between Osceola and Orange County. Success in the Sunshine State now requires a surgical approach to expense management.",
+    "step_by_step_guide": [
+      "Enter your county to apply the correct local Tourist Development Tax (TDT) rate.",
+      "Adjust occupancy expectations for the 'Off-Season' (typically August-September) to see true cash flow.",
+      "Factor in the 30% rise in Florida property insurance to ensure your net margin is sustainable."
+    ]
+  },
+  "fitness-la": {
+    "id": "fitness-la",
+    "local_insight": "In Los Angeles, fitness is a cultural currency. The trend for 2026 has shifted from pure aesthetic bodybuilding to high-performance longevity, driven by the Hollywood 'Biohacking' scene. Whether you are training at Gold’s Gym Venice or hiking the Santa Monica Mountains, your TDEE (Total Daily Energy Expenditure) is significantly higher due to LA’s year-round active outdoor culture. This calculator uses localized MET (Metabolic Equivalent of Task) values for popular LA activities to give you a nutrition plan that fuels a celebrity-level lifestyle without the expensive concierge nutritionist price tag.",
+    "step_by_step_guide": [
+      "Select your primary LA activity (e.g., Trail Hiking vs. Beach Soft-Sand Training).",
+      "Input your body composition data to calculate your Baseline Metabolic Rate (BMR).",
+      "Generate a 'Red Carpet Ready' macro split tailored for high-protein, clean-eating goals."
+    ]
+  },
+  "business-toronto": {
+    "id": "business-toronto",
+    "local_insight": "Toronto’s tech ecosystem, centered around the MaRS Discovery District and the Financial District, is currently optimizing for 'capital efficiency' over 'growth at all costs.' For startups in the GTA (Greater Toronto Area), managing the burn rate means balancing high Canadian tech salaries with available SR&ED (Scientific Research and Experimental Development) tax credits. Our runway tool helps Toronto founders calculate how much longer their CAD funding will last when factoring in Ontario-specific payroll taxes and the current commercial rent spikes in the Liberty Village area.",
+    "step_by_step_guide": [
+      "Input your CAD funding and monthly burn, including Toronto's competitive tech salary averages.",
+      "Calculate potential SR&ED tax credit clawbacks to extend your runway by 3-6 months.",
+      "Assess 'Office vs. Remote' costs based on current GTA commercial real estate per-square-foot rates."
+    ]
+  },
+  "crypto-miami": {
+    "id": "crypto-miami",
+    "local_insight": "Miami has solidified its position as the 'Crypto Capital' of the world, largely due to Florida's lack of state income tax and Mayor Suarez’s pro-Web3 policies. For traders moving from NY or CA, the ROI boost is immediate—a 13% 'tax gift' just for being in the 305. However, 2026 federal IRS reporting requirements for digital assets are stricter than ever. Our Miami-specific tool calculates your PnL while highlighting the 'Florida Advantage,' helping you visualize how much more capital you keep by trading from the shores of Biscayne Bay.",
+    "step_by_step_guide": [
+      "Import your trade history and calculate net gains across all digital asset classes.",
+      "Contrast your 'Miami Net' against your previous state's tax rate to see your total tax savings.",
+      "Generate a 2026-compliant IRS tax-loss harvesting report to further optimize your ROI."
+    ]
+  },
+  "solar-queensland": {
+    "id": "solar-queensland",
+    "local_insight": "Queensland, Australia's 'Sunshine State,' boasts the highest rooftop solar penetration in the world. However, in 2025, the game has changed from 'Feed-in Tariffs' to 'Self-Consumption.' With Ergon and Energex reducing daytime export credits, the real money is made by using your solar power during the peak sun hours of 10 AM to 2 PM or investing in a home battery. Our QLD-specific calculator factors in the 'Sun Tax' (export charges) and helps you determine if a 10kW system is overkill or a perfect match for your Brisbane or Gold Coast home energy profile.",
+    "step_by_step_guide": [
+      "Input your average daily usage in kWh, focusing on daytime vs. evening consumption.",
+      "Determine the ROI of adding a 13.5kWh battery based on QLD's current peak-to-off-peak price delta.",
+      "Calculate your payback period using the latest Queensland government renewable energy rebates."
+    ]
+  },
+  "real-estate-manchester": {
+    "id": "real-estate-manchester",
+    "local_insight": "Manchester's 'Northern Powerhouse' status in 2026 is driven by the massive regeneration of the Victoria North and Mayfield areas, making it the UK's top target for institutional and private buy-to-let investors. Unlike the stagnating London market, Manchester offers a unique blend of high capital appreciation and rental yields often exceeding 7%. However, the 2025 introduction of stricter selective licensing across various wards and the mandatory Decent Homes Standard 2 upgrades mean investors must budget for higher initial compliance costs. Our tool factors in the Greater Manchester Spatial Framework (GMSF) projections to ensure your ROI calculations reflect the true 2026 economic landscape.",
+    "step_by_step_guide": [
+      "Select the specific Manchester ward to account for local selective licensing and compliance fees.",
+      "Input the property's current EPC rating to calculate the cost of mandatory 'Green Upgrades' required by 2026.",
+      "Calculate net yield after factoring in the 3% additional residential property surcharge for UK landlords."
+    ]
+  },
+  "tax-singapore": {
+    "id": "tax-singapore",
+    "local_insight": "In 2025, Singapore’s personal income tax system has undergone strategic adjustments to maintain its global competitiveness while addressing fiscal sustainability. For high-earners and expats, navigating the marginal tax rates—which now top out at 24% for the highest bracket—requires a deep understanding of the Central Provident Fund (CPF) contribution changes for older workers and the refined Not-Ordinarily Resident (NOR) scheme expiration. With GST firmly at 9%, calculating your true take-home pay requires a surgical look at your tax reliefs (capped at SGD 80,000) and the Supplementary Retirement Scheme (SRS) offsets. Our Singapore-specific tool provides a precise breakdown of your IRAS obligations in the current digital economy.",
+    "step_by_step_guide": [
+      "Input your total annual remuneration, including AWS (13th month) and performance bonuses.",
+      "Apply the max-capped SGD 80,000 personal tax relief to see your final chargeable income.",
+      "Calculate the tax-saving impact of voluntary SRS contributions based on your current tax bracket."
+    ]
+  },
+  "wedding-paris": {
+    "id": "wedding-paris",
+    "local_insight": "A 2026 destination wedding in Paris is a luxury statement that must navigate the complex post-Olympics hospitality landscape. Beyond the 20% French VAT (TVA), high-end couples now face increased premium surcharges during Paris Fashion Week and peak summer months. Legally, the 'Mariage Civil' requires a 30-day residency, leading most international couples to opt for a symbolic ceremony at iconic venues like the Ritz or Shangri-La followed by a secular celebration. Our planner factors in the specific 'Mairie' administrative costs, luxury venue 'droit de bouchon' (corkage fees), and the 2026 service labor rates to ensure your 'City of Love' budget remains grounded in reality.",
+    "step_by_step_guide": [
+      "Determine your ceremony type—Symbolic vs. Legal—to account for different administrative and translator fees.",
+      "Allocate a 25% premium for venue rentals if your date overlaps with major French cultural events or Fashion Week.",
+      "Include the mandatory 10-15% service charge for catering staff, which is often bundled but requires transparency."
+    ]
+  },
+  "solar-phoenix": {
+    "id": "solar-phoenix",
+    "local_insight": "In the 'Valley of the Sun,' Phoenix homeowners in 2026 are pivoting from traditional solar grids to 'Resiliency-First' systems. Due to the extreme heat (averaging 115°F+ in summer), photovoltaic panel efficiency derating is a critical factor—standard panels lose up to 0.5% efficiency for every degree above 77°F. Our tool uses Phoenix-specific meteorological data and current SRP (Salt River Project) or APS rate plans, specifically accounting for the 'Grid Access Charge' and the shift toward TOU (Time-of-Use) export credits. Investing in a battery like the Tesla Powerwall 3 is no longer just for backup; it’s the primary way to avoid the punitive peak-hour rates during Phoenix's intense summer evenings.",
+    "step_by_step_guide": [
+      "Input your monthly APS or SRP bill and select your specific Time-of-Use (TOU) plan.",
+      "Adjust the solar production estimate by a 15% 'Heat Derating Factor' for accurate summer projections.",
+      "Calculate the payback period for a battery storage system based on avoiding peak 3-8 PM energy rates."
+    ]
+  },
+  "crypto-dubai": {
+    "id": "crypto-dubai",
+    "local_insight": "Dubai remains the premier global hub for crypto-wealth, largely due to its 0% personal income tax and the progressive Virtual Assets Regulatory Authority (VARA) framework. In 2026, the 'Dubai ROI' is unmatched for high-volume traders migrating from high-tax jurisdictions. However, staying compliant with the UAE’s Anti-Money Laundering (AML) standards and navigating the specific 'Corporate Tax' implications for licensed OTC desks is vital. Our tool helps you calculate your 100% tax-free gains while accounting for the local VARA-compliant exchange fees and the strategic advantage of holding assets within the Dubai Multi Commodities Centre (DMCC) free zone.",
+    "step_by_step_guide": [
+      "Log your trade volume to calculate the savings compared to a 20-30% capital gains tax in the US/EU.",
+      "Factor in local VARA-approved exchange spreads and bank transfer fees to UAE accounts.",
+      "Simulate your 'Net Wealth Growth' over a 5-year period using Dubai’s zero-tax compounding effect."
+    ]
+  },
+  "real-estate-austin": {
+    "id": "real-estate-austin",
+    "local_insight": "The Austin real estate market in 2026 has transitioned from the 'Pandemic Gold Rush' to a sophisticated 'Tech-Hub Maturity.' Investors in the Silicon Hills must now navigate Texas's high property tax rates (often 2.2% to 2.8%), which can significantly erode cash flow if not carefully managed. With major expansions at Tesla’s Giga Texas and Samsung’s Taylor plant, rental demand remains concentrated in the Northeast and Southeast corridors. Our ROI tool specifically factors in the Travis Central Appraisal District (TCAD) protest trends and the latest Homestead Exemption rules, ensuring that your net yield isn't wiped out by a sudden property tax reassessment.",
+    "step_by_step_guide": [
+      "Input the property’s most recent TCAD appraised value and apply the current 2.5% tax estimate.",
+      "Adjust your 'Vacancy Rate' to 7% to reflect the recent influx of multi-family supply in the Austin metro.",
+      "Calculate the ROI benefit of the Samsung/Tesla 'Tech Halo' by projecting a 4-6% annual rent growth."
+    ]
+  },
+  "tax-portugal-nomad": {
+    "id": "tax-portugal-nomad",
+    "local_insight": "Portugal’s tax environment for digital nomads in 2026 is defined by the transition from the old NHR (Non-Habitual Resident) to the 'Incentive for Scientific Research and Innovation' (NHR 2.0). While the 20% flat rate is still attainable for high-value tech roles, the eligibility criteria have tightened. For those on the Digital Nomad Visa (DNV), navigating the 25% Social Security contribution and the tiered progressive income tax rates—which can jump to 48%—is the biggest financial challenge. Our tool provides a surgical look at your 'Net-After-Portugal' income, accounting for the 50% tax exemption on the first €30k for certain professional categories under the 2025 youth tax reform extensions.",
+    "step_by_step_guide": [
+      "Determine your NHR 2.0 eligibility based on your specific 'High Value Activity' professional code.",
+      "Calculate your Social Security (Seguran?a Social) liability—capped at 12 times the IAS (Social Support Index).",
+      "Contrast your net income with the cost of living in Lisbon vs. Porto to see your real purchasing power."
+    ]
+  },
+  "real-estate-chicago": {
+    "id": "real-estate-chicago",
+    "local_insight": "Investing in Chicago real estate in 2026 requires a hyper-local strategy to navigate Cook County’s aggressive property tax reassessments and the 'Bring Chicago Home' mansion tax implications on high-value transfers. While rental yields in neighborhoods like Logan Square and Avondale remain strong at 6-8%, the 'Tenant-Friendly' legal climate in Cook County demands a higher contingency fund for legal fees and potential evictions. Our tool factors in the specific 2026 Cook County tax multiplier and the city’s latest energy benchmarking requirements for multi-family units, ensuring that your cash-on-cash return is based on actual Chicago operating expenses.",
+    "step_by_step_guide": [
+      "Input the current property tax bill and add a 15% buffer for the triennial reassessment cycle.",
+      "Allocate a 10% reserve for 'Legal & Compliance' to handle Chicago’s strict RLTO (Rental Lease Tenant Ordinance) rules.",
+      "Analyze the ROI of multi-unit properties (2-4 units) which currently offer the best financing terms in IL."
+    ]
+  },
+  "wedding-santorini": {
+    "id": "wedding-santorini",
+    "local_insight": "A Santorini destination wedding in 2026 is a balancing act between iconic Caldera views and the island's strict over-tourism management policies. In peak season (June-September), venue prices in Oia and Imerovigli have reached record highs, with many locations implementing 'Noise Control' curfews at 11 PM. Our planner factors in the specific Greek 'ΦΠΑ' (VAT) at 24%, the mandatory 'Municipal Tax' for beach ceremonies, and the high logistics costs of transporting premium decor to a volcanic island. To maximize value, our 2026 data recommends 'Shoulder Season' (May or October) where venue rates drop by up to 35% while the Aegean climate remains idyllic.",
+    "step_by_step_guide": [
+      "Select your 'View Grade'—Caldera View vs. East Side—to see a 40% price difference in venue hire.",
+      "Account for the 'Island Logistics Fee'—typically a 15% surcharge for vendors traveling from Athens.",
+      "Calculate the guest hospitality cost including the Santorini-specific 'Environmental Fee' for hotel stays."
+    ]
+  },
+  "business-seattle": {
+    "id": "business-seattle",
+    "local_insight": "In 2025-2026, Seattle tech professionals at Amazon, Microsoft, and Meta are navigating a unique fiscal environment: zero state income tax but a new, controversial WA State Capital Gains tax on high-value RSU vests. For those earning over $250k, the 7% tax on long-term capital gains is a major shift in compensation strategy. Our tool helps Seattle workers calculate their true 'Take-Home' by factoring in the high City of Seattle utility rates and the 10.3% combined sales tax. We specifically optimize for the 'WA Tech Playbook'—maximizing 401k and HSA contributions to lower your federal adjusted gross income in a high-cost-of-living metro.",
+    "step_by_step_guide": [
+      "Input your base salary plus the projected value of RSU vests to check WA Capital Gains tax triggers.",
+      "Apply the 2026 federal tax brackets and subtract your max-capped 401k and HSA contributions.",
+      "Compare your net pay against Seattle's current median rent for South Lake Union or Bellevue."
+    ]
+  },
+  "real-estate-atlanta": {
+    "id": "real-estate-atlanta",
+    "local_insight": "In 2026, Atlanta’s real estate market is defined by the 'BeltLine Effect' and the massive corporate migration to Midtown and the Upper Westside. For investors, the key to ROI in the 'A' is navigating Georgia’s unique property tax assessment cycles and the increasing impact of the city's anti-gentrification ordinances. With the 2026 World Cup matches hosted at Mercedes-Benz Stadium, short-term rental demand in neighborhoods like Old Fourth Ward and Inman Park is projected to spike, but long-term cash flow remains tied to 'Eds and Meds' hubs—areas surrounding Emory and Georgia Tech. Our tool factors in the latest 2025 millage rates and projected appreciation in the BeltLine overlay districts.",
+    "step_by_step_guide": [
+      "Select your target neighborhood to apply the specific City of Atlanta or Fulton County millage rates.",
+      "Input your projected 'World Cup Premium' for short-term rentals while factoring in local registration fees.",
+      "Calculate the net cash flow after a 10% reserve for Atlanta’s rising maintenance and HVAC costs."
+    ]
+  },
+  "solar-adelaide": {
+    "id": "solar-adelaide",
+    "local_insight": "South Australia is currently a global laboratory for renewable energy, and Adelaide homeowners in 2026 are at the forefront of the Virtual Power Plant (VPP) revolution. With SA often achieving 100% solar penetration during daytime hours, traditional feed-in tariffs have plummeted, making 'Smart Export' and battery integration mandatory for ROI. Our tool factors in the specific SA Power Networks (SAPN) flexible export limits and the latest 2025-2026 VPP incentives from providers like Tesla or Amber Electric. In Adelaide’s Mediterranean climate, maximizing self-consumption during the 5 PM to 9 PM peak window is the only way to achieve a sub-6-year payback on your investment.",
+    "step_by_step_guide": [
+      "Input your average daily usage and select a VPP participation level to see potential credit offsets.",
+      "Calculate the ROI of a 10kWh+ battery storage system based on SA’s high peak-hour electricity rates.",
+      "Determine your 'Flexible Export' capacity based on your local Adelaide substation congestion data."
+    ]
+  },
+  "wedding-maui": {
+    "id": "wedding-maui",
+    "local_insight": "Planning a 2026 destination wedding in Maui requires a culturally sensitive and logistically precise approach following the Lahaina recovery efforts. Most luxury ceremonies have shifted toward Wailea and Kapalua, where venue demand remains at an all-time high. Our planner accounts for the mandatory State of Hawaii 'Wiki Permit' for beach weddings (strictly limited to 20-30 guests) and the high 'Island Premium' for floral and catering imports. In 2026, environmental stewardship is a key trend; we factor in the latest 'Malama Hawaii' sustainable vendor surcharges and the GET (General Excise Tax) of 4.166%, ensuring your dream sunset ceremony is both legally compliant and financially transparent.",
+    "step_by_step_guide": [
+      "Check DLNR beach permit availability for your specific Maui shore location and guest count.",
+      "Allocate an additional 20% for 'Logistics & Shipping' for any non-local decor or specific floral requests.",
+      "Include the mandatory Hawaii GET and local hotel occupancy taxes for guest room blocks."
+    ]
+  },
+  "fitness-miami": {
+    "id": "fitness-miami",
+    "local_insight": "Miami’s fitness scene in 2026 has evolved into a 24/7 'Bio-Optimized' culture where heat acclimatization is a science. Whether you're training at a high-end Brickell gym or doing an outdoor HIIT session in South Beach, the extreme humidity and UV index of Florida demand a surgical approach to hydration and caloric intake. Our calculator uses localized weather data to adjust your electrolyte replenishment needs and protein ratios for 'Beach-Ready' lean mass retention. We specifically factor in the 'Miami Metabolism'—accounting for the higher caloric burn of thermoregulation in 90°F+ temperatures and the city’s preference for low-carb, high-longevity nutrition protocols.",
+    "step_by_step_guide": [
+      "Input your outdoor training duration to calculate fluid loss based on Miami’s current humidity index.",
+      "Adjust your 'Macro Split' for lean mass retention vs. thermogenic fat loss in a tropical climate.",
+      "Generate a hydration schedule that includes specific sodium/potassium ratios for high-heat training."
+    ]
+  },
+  "business-berlin": {
+    "id": "business-berlin",
+    "local_insight": "In 2025-2026, the Berlin startup scene is navigating the most significant changes to ESOP (Employee Stock Option Plan) taxation in a decade. For founders and early employees in Silicon Allee, understanding the 'Dry Income' tax deferral rules and the specific social security contributions (Sozialversicherungsbeitr?ge) is critical for talent retention. Our tool provides a precise look at the net-after-tax value of German equity packages, factoring in the latest 'Zukunftsfinanzierungsgesetz' updates. We help you calculate the real cost of a hire in Berlin, accounting for the employer’s share of health, pension, and unemployment insurance in the current high-inflation German economy.",
+    "step_by_step_guide": [
+      "Input the strike price and exit valuation to calculate the potential 'Geldwerter Vorteil' (taxable benefit).",
+      "Apply the 2026 German progressive income tax brackets (up to 42% or 45%) to your projected gain.",
+      "Contrast the 'Net Cash' vs. 'Equity' value after factoring in mandatory German social security deductions."
+    ]
+  },
+  "tax-houston-nomad": {
+    "id": "tax-houston-nomad",
+    "local_insight": "Houston has emerged as a top 2026 destination for high-earning 'Tax Nomads' and side-hustlers looking to escape coastal state income taxes. In Texas, your 'Houston ROI' is driven by the 0% state income tax, but you must be wary of the city’s high sales tax (8.25%) and the 'Hidden Tax' of skyrocketing property insurance in the Gulf Coast region. Our tool helps side-hustlers in tech or energy consulting calculate their true take-home pay by factoring in the federal self-employment tax (15.3%) and Houston's specific cost-of-living index. We optimize for the 'Texas Advantage'—showing you exactly how much more you keep compared to a 1099 role in NYC or San Francisco.",
+    "step_by_step_guide": [
+      "Input your gross 1099 revenue and subtract federal-only business deductions (since TX has no state filing).",
+      "Generate an estimated quarterly tax payment schedule for the IRS to avoid underpayment interest.",
+      "Compare your Houston net income against your previous state’s tax rate to visualize your savings."
+    ]
+  },
+  "crypto-london-hmrc": {
+    "id": "crypto-london-hmrc",
+    "local_insight": "HMRC's approach to crypto taxation in 2025 has become surgically precise, with the launch of the 'Crypto Asset Disclosure Facility.' For UK traders in London’s Canary Wharf or Tech City, the 2026 tax year requires a rigorous 'Section 104' pool calculation for every trade. With the Capital Gains Tax (CGT) allowance recently slashed to just ￡3,000, managing your 'Bed and Breakfast' rules and 'Same Day' disposal logic is the only way to protect your ROI. Our tool is built on current UK tax law, factoring in the 10% vs 20% CGT bands and the specific HMRC 'pooling' method, ensuring you don't fall foul of the new automated data-sharing between exchanges and the Treasury.",
+    "step_by_step_guide": [
+      "Import your transaction history to generate a 'Section 104' compliant cost-basis pool.",
+      "Calculate your utilized vs. remaining ￡3,000 CGT allowance for the current UK tax year.",
+      "Identify 'Tax Loss Harvesting' opportunities before the April 5th UK tax year-end."
+    ]
+  },
+  "real-estate-boston": {
+    "id": "real-estate-boston",
+    "local_insight": "The Boston real estate market in 2026 remains a fortress of stability, driven by the 'Eds, Meds, and Labs' economy. Investors in the Seaport, Cambridge, and Allston-Brighton corridors must navigate some of the oldest housing stock in the US, where 'Hidden CapEx' for lead paint compliance and historical district regulations are significant factors. With the city’s latest rent control debates and the high demand for life-sciences-adjacent housing, precision in calculating condo fees and the specific City of Boston property tax exemptions is vital. Our tool factors in the 2025 residential exemption for owner-occupants and the latest rental market flux in the 'Allston Christmas' cycle.",
+    "step_by_step_guide": [
+      "Input the property’s current tax assessment and apply the Boston Residential Exemption if applicable.",
+      "Allocate a 15% 'Heritage Reserve' for maintenance costs typical of Boston’s pre-war triple-deckers.",
+      "Calculate the net yield based on current 'per-bedroom' rental rates in student-heavy neighborhoods."
+    ]
+  },
+  "solar-denver": {
+    "id": "solar-denver",
+    "local_insight": "Denver’s 300 days of sunshine make it a solar paradise, but in 2026, homeowners must account for the 'High-Altitude Penalty' and heavy snow loads. At 5,280 feet, UV intensity is higher, which can actually increase panel output, but the frequent hailstorms on the Front Range demand Tier-1 durability ratings for insurance eligibility. Our tool factors in Xcel Energy’s latest 'Renewable Rewards' incentives and the shift toward 'Net Metering 2.0' in Colorado. We specifically calculate the ROI of the 'Snow-Shedding' angle optimization—ensuring your system doesn't remain dormant during Denver’s intense March blizzards while maximizing the 30% federal tax credit.",
+    "step_by_step_guide": [
+      "Input your average Xcel Energy bill and select your specific 'Time-of-Check' incentive program.",
+      "Apply the 'Altitude Boost' multiplier to your production estimate for more accurate Denver projections.",
+      "Calculate the payback period factoring in Colorado’s state-level sales tax exemption for solar equipment."
+    ]
+  },
+  "wedding-rome": {
+    "id": "wedding-rome",
+    "local_insight": "A 2026 destination wedding in Rome is an exercise in navigating Italian bureaucracy and the timeless allure of the 'Eternal City.' Legally, the 'Nulla Osta' (sworn statement) remains the biggest hurdle for international couples, requiring a 4-6 month lead time. Our planner factors in the specific Roman 'Occupazione Suolo Pubblico' (OSP) permits for any outdoor event near historic landmarks and the 22% Italian VAT (IVA). In 2026, the trend is 'Hyper-Localism'—renting private villas on the Appian Way. We account for the mandatory SIAE music tax and the high logistics costs of Rome’s ZTL (Limited Traffic Zones), ensuring your vendor deliveries don't result in thousands of euros in fines.",
+    "step_by_step_guide": [
+      "Check 'Nulla Osta' requirements for your specific nationality to ensure a legally binding Italian ceremony.",
+      "Include the mandatory SIAE music license fee (typically €300-€600) based on guest count and venue type.",
+      "Allocate a 15% budget buffer for ZTL-compliant transportation and logistics in Rome’s historic center."
+    ]
+  },
+  "real-estate-vancouver": {
+    "id": "real-estate-vancouver",
+    "local_insight": "The Vancouver residential market in 2026 is defined by the federal government's extension of the foreign buyer ban and the provincial 'Speculation and Vacancy Tax' aimed at cooling the secondary market. For investors in the Lower Mainland, calculating ROI now requires a surgical look at the 'Empty Homes Tax' (EHT) which has stayed at a significant 3% for underutilized properties. With the 2025-2026 interest rate stabilization, demand is surging in the 'Broadway Plan' corridors and Surrey’s transit-oriented developments. Our tool factors in the British Columbia Property Transfer Tax (PTT) and the specific 20% foreign buyer surcharge, ensuring your net yield accounts for Vancouver’s aggressive anti-speculation fiscal environment.",
+    "step_by_step_guide": [
+      "Select your residency status to determine if the 20% Additional Property Transfer Tax applies.",
+      "Input the property's primary usage to check for 'Empty Homes Tax' (3%) liability based on occupancy.",
+      "Calculate net cash flow after factoring in BC's latest strata insurance premium adjustments."
+    ]
+  },
+  "solar-sydney": {
+    "id": "solar-sydney",
+    "local_insight": "Sydney’s solar landscape in 2026 has matured into a smart-grid environment where the 'Sun Tax'—or two-way pricing—is a daily reality. For homeowners in the North Shore or Western Suburbs, the ROI of a 6.6kW or 10kW system is now tied to 'Peak Demand Management' rather than simple feed-in tariffs. With the 2025-2026 phase-out of traditional NSW solar rebates, the real money is in Virtual Power Plants (VPPs) and shifting heavy loads like pool pumps to the 'Solar Sponge' period (10 AM - 2 PM). Our tool factors in Ausgrid and Endeavour Energy’s latest network tariffs and the specific ROI of the Tesla Powerwall 3, ensuring your payback period reflects Sydney's unique electricity price spikes during humid summer evenings.",
+    "step_by_step_guide": [
+      "Input your average daily usage and select your specific Sydney distributor (Ausgrid/Endeavour).",
+      "Calculate the ROI of a home battery based on avoiding 'Time of Use' (ToU) peak evening rates.",
+      "Estimate your 'Solar Sponge' self-consumption ratio to maximize energy independence."
+    ]
+  },
+  "tax-london-freelance": {
+    "id": "tax-london-freelance",
+    "local_insight": "For London-based freelancers and contractors in 2026, the IR35 'Off-Payroll Working' rules remain the single biggest fiscal hurdle. With HMRC’s increased use of AI for tax gap analysis, staying within the 'outside IR35' status requires meticulous contract structuring. Our tool factors in the 2025-2026 National Insurance (NI) changes and the current ￡12,570 Personal Allowance. For those in the Tech City (Shoreditch) or the City of London, managing the 'Student Loan Plan 2' deductions and the 9% or 12% NI rates is critical for cash flow. We provide a precise 'Take-Home' estimate that accounts for the High Income Child Benefit Charge (HICBC) and the latest UK dividend tax allowance cuts, which have hit limited company directors significantly.",
+    "step_by_step_guide": [
+      "Categorize your income as 'Inside' or 'Outside' IR35 to apply the correct NI and tax logic.",
+      "Calculate your net pay after factoring in mandatory workplace pension and student loan Plan 2/5 repayments.",
+      "Determine the tax-saving impact of maximizing your SIPP (Self-Invested Personal Pension) contributions before April 5th."
+    ]
+  },
+  "wedding-bali": {
+    "id": "wedding-bali",
+    "local_insight": "A 2026 destination wedding in Bali is a luxury endeavor that must navigate the island's new 'Tourist Tax' and stricter event permit regulations in Uluwatu and Canggu. Most luxury cliff-top ceremonies now require a 'Banjar' (local community) permit and specific sound-level compliance. Our planner accounts for the 11% Indonesian VAT (PPN), the 10% service charge at five-star resorts like the Bulgari or Ayana, and the logistics of 'Legal vs. Symbolic' ceremonies. In 2026, we factor in the specific 'High-Season' surcharges (July-August) and the currency flux between the USD and IDR, ensuring your budget for local Balinese entertainment and international floral imports is based on current 2026 market rates.",
+    "step_by_step_guide": [
+      "Check local 'Banjar' permit fees for your specific Uluwatu or Seminyak villa location.",
+      "Allocate a 15% budget buffer for international vendor travel and Indonesian import taxes on premium decor.",
+      "Include the mandatory 21% tax and service (Tax & Service) charge typical of Balinese luxury hospitality."
+    ]
+  },
+  "pet-health-sf": {
+    "id": "pet-health-sf",
+    "local_insight": "In San Francisco, pet care costs in 2026 are among the highest in the world, driven by a 25% inflation in veterinary services and the city's unique 'Pet-Friendly' rental market mandates. For owners in the Mission or Marina, calculating the ROI of pet insurance vs. 'Self-Funding' is a vital financial decision. Our tool factors in the specific SF vet clinic pricing—where a standard ER visit now averages $1,200—and the latest California pet insurance regulatory changes. We specifically optimize for 'SF City Pets,' accounting for higher activity levels (and associated risks) from hikes at Land's End or off-leash play at Dolores Park, providing a nutrition and emergency fund plan tailored for the high-cost-of-living Bay Area lifestyle.",
+    "step_by_step_guide": [
+      "Input your pet's breed and SF neighborhood to estimate average local vet and grooming costs.",
+      "Contrast the ROI of a 'High-Premium' pet insurance plan against a dedicated high-yield savings account.",
+      "Generate a nutrition budget based on premium SF-based pet food brands and urban calorie burn rates."
+    ]
+  },
+  "amazon-fba-global": {
+    "id": "amazon-fba-global",
+    "local_insight": "Amazon FBA sellers in 2026 are navigating a 'post-efficiency' era where the 'Low-Inventory-Level Fee' and the latest 'Inbound Placement Fees' have decimated margins for small-item sellers. For those sourcing from Shenzhen or Vietnam and selling in the US/EU markets, the 2026 ROI calculation must include the skyrocketing ocean freight costs and the potential impact of the latest US tariff proposals. Our tool factors in the mandatory Amazon 'Referral Fees' (averaging 15%), the FBA storage surcharges for 'Aged Inventory,' and the 2026 PPC (Pay-Per-Click) bid inflation. We provide a 'Unit-Level' net profit analysis that accounts for the 10-15% return rate typical of modern e-commerce, ensuring your capital is allocated to truly profitable SKUs.",
+    "step_by_step_guide": [
+      "Enter your total landed cost, including international shipping, tariffs, and port handling fees.",
+      "Apply the 2026 Amazon FBA pick-and-pack fees based on current dimensions and weight tiers.",
+      "Calculate the 'Break-Even' ACoS (Advertising Cost of Sale) for your PPC campaigns to maintain a 20% net margin."
+    ]
+  },
+  "vanlife-oregon": {
+    "id": "vanlife-oregon",
+    "local_insight": "Oregon remains the 'Mecca' of van life, but in 2026, the strategy is about 'Stealth' and 'Off-Grid Compliance.' With the latest Bureau of Land Management (BLM) 14-day stay limits being strictly enforced via digital monitoring, nomads must optimize their fuel-to-solar ratio. Our tool factors in the specific 'Pacific Northwest Cloud Factor'—adjusting solar output for the frequent overcast days in Bend and the Willamette Valley. We calculate the ROI of investing in a diesel heater vs. high-capacity LiFePO4 batteries for Oregon's damp winters, accounting for the 2026 diesel price projections and the latest Portland city ordinances regarding overnight parking and greywater disposal.",
+    "step_by_step_guide": [
+      "Input your van's solar wattage and apply the 'Oregon Overcast' coefficient (0.4) for winter production estimates.",
+      "Calculate your daily fuel burn for heating based on average Bend or Portland winter temperatures.",
+      "Determine your 'Off-Grid Runway' (days you can stay parked) based on battery capacity and water tank size."
+    ]
+  },
+  "dividend-investing-us": {
+    "id": "dividend-investing-us",
+    "local_insight": "Dividend investing in 2026 is a hedge against the volatility of the AI-driven tech market. For US-based 'FIRE' (Financial Independence, Retire Early) seekers, the focus has shifted to 'Dividend Growth' (DGI) over 'High Yield' traps. Our tool factors in the 2026 Qualified Dividend tax rates (0%, 15%, or 20%) and the potential 'Capital Gains Tax' reforms currently being debated in Congress. We specifically model the 'DRIP' (Dividend Reinvestment Plan) effect over a 10-20 year horizon, accounting for the 3.8% Net Investment Income Tax (NIIT) for high earners. Our model helps you visualize the 'Income Crossover Point'—where your annual dividends exceed your monthly cost of living in various US cities.",
+    "step_by_step_guide": [
+      "Input your current portfolio yield and projected annual dividend growth rate (e.g., 7% for Aristocrats).",
+      "Select your 'Reinvestment Mode' to see the compounding power of DRIP over 15+ years.",
+      "Calculate the 'Tax Drag' based on your current federal income tax bracket and qualified status."
+    ]
+  },
+  "gaming-tokyo": {
+    "id": "gaming-tokyo",
+    "local_insight": "In Tokyo, the 2026 gaming scene is a battle between high-end 4K performance and Japan's rising 'Tiered Electricity' costs. For PC enthusiasts in Akihabara or Nakano, running a dual-RTX 5090 setup now requires a deep understanding of TEPCO's 'Fuel Cost Adjustment' surcharges. Our tool factors in the 2026 JPY/USD exchange rate for hardware upgrades and the specific electricity prices (per kWh) for Tokyo’s 23 wards. We calculate the annual ROI of switching to an '80 Plus Titanium' PSU, accounting for the average 6-hour daily gaming load and the heat-management costs during Tokyo’s increasingly brutal summer months where AC usage doubles the energy bill.",
+    "step_by_step_guide": [
+      "Input your PC's peak wattage and select your TEPCO 'Amperage' plan (e.g., 40A or 60A).",
+      "Calculate the annual electricity cost including the 'Renewable Energy Surcharge' typical of Japanese bills.",
+      "Determine the 'Energy Payback' period of upgrading to more efficient components based on current Yen rates."
+    ]
+  },
+  "golf-scotland": {
+    "id": "golf-scotland",
+    "local_insight": "Playing golf in Scotland, the 'Home of Golf,' in 2026 has become an exercise in 'Handicap Precision' and booking agility. With the latest R&A rules on ball roll-back and the surge in international 'Bucket List' tourism, green fees at St Andrews, Carnoustie, and Muirfield have reached record levels. Our tool factors in the specific 'Wind-Adjusted' handicap calculations for links courses and the 20% UK VAT on visitor fees. In 2026, we specifically account for the 'Local Resident' vs. 'International Visitor' price tiers and the logistics of the 'Old Course' ballot system, ensuring your golf budget includes the mandatory caddie fees and the rising costs of high-end hospitality in the Kingdom of Fife.",
+    "step_by_step_guide": [
+      "Input your current WHS (World Handicap System) index to see your course-adjusted handicap for Scottish links.",
+      "Include the mandatory ￡60-￡100 caddie fee plus gratuity for top-tier historic courses.",
+      "Calculate the total 'Bucket List' ROI including the 2026 peak-season premium for St Andrews tee times."
+    ]
+  },
+  "tax-singapore-iras": {
+    "id": "tax-singapore-iras",
+    "local_insight": "Singapore’s 2026 fiscal landscape is characterized by the refined Progressive Wage Credit Scheme (PWCS) and the strategic implementation of the Pillar Two GLoBE rules for multinational entities. For high-earning individuals and expats, the core challenge lies in maximizing the SGD 80,000 personal tax relief cap against a backdrop of the 2025-2026 marginal rate hike to 24% for top-tier income. Our tool factors in the current CPF (Central Provident Fund) contribution ceilings for Singaporeans/PRs and the latest Supplementary Retirement Scheme (SRS) tax-deferral benefits, providing a surgical look at your IRAS net-tax liability in the world’s most efficient business hub.",
+    "step_by_step_guide": [
+      "Input your annual gross remuneration, including bonuses and the 13th-month AWS.",
+      "Deduct your voluntary SRS contributions and qualifying life insurance reliefs to lower your chargeable income.",
+      "Calculate the impact of the current SGD 80,000 personal tax relief cap on your final IRAS bill."
+    ]
+  },
+  "business-berlin-esop": {
+    "id": "business-berlin-esop",
+    "local_insight": "In 2026, the Berlin startup ecosystem is benefiting from the 'Future Financing Act' (Zukunftsfinanzierungsgesetz), which has significantly improved the tax deferral for Employee Stock Option Plans (ESOP). Founders and early-stage employees in Silicon Allee no longer face the 'Dry Income' tax trap at the moment of vesting; instead, taxation is deferred until a liquidity event. Our tool factors in the 2026 German progressive income tax rates and the specific 25% Abgeltungsteuer (flat-rate withholding tax) potential for certain exit scenarios, ensuring your Berlin tech offer is evaluated against the latest German social security contribution ceilings.",
+    "step_by_step_guide": [
+      "Input the strike price and projected exit valuation to calculate the 'Geldwerter Vorteil' (taxable benefit).",
+      "Select your German tax class (Steuerklasse) to see the progressive impact on your potential net gains.",
+      "Estimate the net cash value after the mandatory German social security deductions for high-earning tech roles."
+    ]
+  },
+  "childcare-london-cost": {
+    "id": "childcare-london-cost",
+    "local_insight": "Childcare in London in 2026 remains the most significant expense for working parents, with full-time nursery costs in Zones 1 and 2 now averaging ￡2,200+ per month. For families in Islington or Fulham, the decision between a private Nanny (requiring Employer NI and pension contributions) and a Daycare center is a complex ROI calculation. Our tool factors in the latest 2025-2026 expansion of the '30 Hours Free Childcare' scheme and the Tax-Free Childcare government top-up (￡2,000 per year). We provide a surgical cost-benefit analysis that accounts for the 'London Premium' and the specific tax savings of workplace nursery salary sacrifice schemes.",
+    "step_by_step_guide": [
+      "Compare the 'Gross vs. Net' cost of hiring a Nanny, including the 13.8% Employer National Insurance.",
+      "Calculate your eligibility for the 30-hour free childcare government grant based on your household income.",
+      "Determine the ROI of using 'Tax-Free Childcare' accounts to save up to ￡500 every three months."
+    ]
+  },
+  "tax-seattle-rsu": {
+    "id": "tax-seattle-rsu",
+    "local_insight": "For Seattle-based tech professionals at Amazon, Starbucks, or Zillow, the 2026 fiscal year is dominated by the Washington State Capital Gains Tax—a 7% levy on long-term gains exceeding $250,000. While WA still lacks a state income tax, the 'Tech RSU' strategy has changed; managing the timing of vests and subsequent sales is now critical to stay below the $250k threshold. Our tool factors in the latest 2026 federal tax brackets and the WA-specific capital gains exemptions, helping you calculate your true 'Take-Home' after federal withholding and the new state-level mandates on high-value asset disposals.",
+    "step_by_step_guide": [
+      "Input your base salary and the projected market value of your 2026 RSU vest dates.",
+      "Calculate the 7% WA Capital Gains tax liability if your total long-term gains exceed the $250,000 threshold.",
+      "Optimize your federal withholding strategy to avoid an underpayment penalty during the April tax season."
+    ]
+  },
+  "crypto-germany-hold": {
+    "id": "crypto-germany-hold",
+    "local_insight": "Germany’s crypto tax laws in 2026 remain a global outlier, offering 100% tax-free gains for individual investors who hold their assets for more than one year. For traders in Berlin or Munich, the 'Spekulationsfrist' (speculative period) is the primary ROI driver. However, 2026 regulations have tightened for 'Staking' and 'Lending' rewards, which may be taxed differently under the latest BMF (Federal Ministry of Finance) guidelines. Our tool provides a cost-basis analysis following the FIFO (First-In, First-Out) method, ensuring you stay compliant with the €600 tax-free limit for short-term trades while identifying which assets have achieved 'Tax-Free' status.",
+    "step_by_step_guide": [
+      "Log your purchase dates to track which assets have passed the mandatory 365-day 'Tax-Free' threshold.",
+      "Identify short-term gains below the €600 'Freigrenze' limit to avoid any tax liability.",
+      "Separate staking/mining rewards into the 2026 German progressive income tax pools for accurate reporting."
+    ]
+  },
+  "real-estate-dallas-tax": {
+    "id": "real-estate-dallas-tax",
+    "local_insight": "Investing in Dallas real estate in 2026 is an exercise in 'Property Tax Management.' While Texas has no state income tax, the Dallas County and School District millage rates often result in an effective property tax rate of 2.5% to 2.8%. For investors in the booming North Dallas and Collin County corridors, the 2026 ROI model must account for the rapid reassessment cycles of the Central Appraisal Districts. Our tool factors in the latest Texas 'Homestead Exemption' caps and the specific impact of the 2025 property tax relief bills, ensuring that your net cash flow calculation isn't blindsided by a 10% annual valuation hike.",
+    "step_by_step_guide": [
+      "Input the current property appraisal and apply the specific Dallas ISD or Plano ISD tax rates.",
+      "Calculate the 'Protest ROI'—estimating the savings from a successful property tax valuation appeal.",
+      "Factor in a 1.5% maintenance reserve typical of North Texas’s soil expansion and foundation challenges."
+    ]
+  },
+  "solar-brisbane-roi": {
+    "id": "solar-brisbane-roi",
+    "local_insight": "In Brisbane, the 2026 solar market is defined by 'Energy Resilience' in the face of increasingly volatile Queensland storms. Homeowners are shifting toward Tier-1, high-impact-rated panels to ensure insurance eligibility. With the QLD feed-in tariff (FiT) continuing to stabilize at lower levels, the focus is 100% on self-consumption and Virtual Power Plant (VPP) integration. Our 2026 ROI tool factors in Brisbane's average 5.2 sun hours and the latest 'Smart Inverter' requirements from Energex. We specifically calculate the payback period of a 13.5kWh battery storage system, accounting for Brisbane's high peak-evening humidity loads.",
+    "step_by_step_guide": [
+      "Select your specific Brisbane post-code to account for local network congestion and export limits.",
+      "Determine the ROI of a battery system by calculating the 'Off-Grid' savings during peak 4-8 PM hours.",
+      "Apply the latest Queensland government interest-free solar battery loans to your upfront cost model."
+    ]
+  },
+  "wedding-bali-villa": {
+    "id": "wedding-bali-villa",
+    "local_insight": "A 2026 Bali villa wedding in Uluwatu or Canggu is a luxury statement requiring meticulous local compliance. Beyond the 11% VAT and 10% service charge, international couples must account for the 'Banjar' (local village) event fees and the specific 'Zoning' permits required for fireworks or late-night music. In 2026, the 'Legal vs. Symbolic' ceremony cost delta is significant; most opt for a symbolic ceremony in Bali after a civil wedding in their home country to avoid the Indonesian religious requirement hurdles. Our planner factors in the 2026 logistics of international vendor travel and the latest Balinese luxury hospitality labor rates.",
+    "step_by_step_guide": [
+      "Differentiate between 'High Season' (Jul/Aug) and 'Low Season' venue pricing for a 35% cost swing.",
+      "Include the mandatory Banjar permit fee (typically $200-$1,000 depending on event scale).",
+      "Factor in the 21% 'Tax & Service' (Tax and Service) typical of premium Balinese wedding catering."
+    ]
+  },
+  "vanlife-australia-budget": {
+    "id": "vanlife-australia-budget",
+    "local_insight": "Van life in Australia in 2026 has become a data-driven lifestyle, especially when traversing the East Coast or the Nullarbor. With diesel prices in remote NT and WA often 40% higher than in Sydney or Melbourne, a surgical budget is required. Our tool factors in the 2026 'Greywater Disposal' fines in sensitive NSW coastal towns and the specific ROI of a 400Ah+ Lithium battery system to avoid expensive commercial campgrounds. We calculate your 'Daily Burn' based on current AUD fuel projections and the latest National Park pass fees, ensuring your 'Big Lap' doesn't end prematurely due to poor financial forecasting.",
+    "step_by_step_guide": [
+      "Input your van’s L/100km efficiency and apply a 30% 'Outback Fuel Premium' for remote segments.",
+      "Calculate the cost-saving ROI of a high-yield solar setup vs. paying for $50/night powered sites.",
+      "Allocate a $1,500 'Emergency Mechanical Fund' for the inevitable wear and tear of Aussie corrugated roads."
+    ]
+  },
+  "rooftop-garden-nyc": {
+    "id": "rooftop-garden-nyc",
+    "local_insight": "Building a rooftop garden in NYC in 2026 is as much about structural engineering as it is about horticulture. Under NYC's 'Green Roof Tax Abatement' and Local Law 92/94, new developments must integrate green space or solar. For brownstone owners in Brooklyn or luxury condo dwellers in Manhattan, the core challenge is 'Live Load' compliance—water-saturated soil weighs approximately 100 lbs per cubic foot. Our tool factors in the specific NYC DOB (Department of Buildings) weight limits and the latest 2026 drought-resistant soil pricing, ensuring your urban oasis doesn't compromise the building’s structural integrity.",
+    "step_by_step_guide": [
+      "Determine your roof's 'Live Load' capacity (lb/sqft) before selecting soil depth and planter types.",
+      "Calculate the weight of 'Saturated Soil' to ensure your garden stays within NYC building codes.",
+      "Estimate the ROI of the NYC Green Roof Tax Abatement (up to $15 per square foot) on your project."
+    ]
+  },
+  "tax-toronto-dividend": {
+    "id": "tax-toronto-dividend",
+    "local_insight": "For Toronto-based small business owners and CCPC (Canadian-Controlled Private Corporation) directors, 2026 is the year of 'Dividend Optimization.' Following the latest federal changes to the 'Capital Gains Inclusion Rate' and the refined TOSI (Tax on Splitting Income) rules, the decision between taking a Salary vs. Dividend has never been more critical. Our tool factors in Ontario’s specific 'Dividend Gross-Up' rates and the 2026 small business tax deduction limits. We provide a surgical look at your net take-home pay, ensuring that your Ontario health tax and Canada Pension Plan (CPP) contributions are optimized for the maximum corporate tax deferral.",
+    "step_by_step_guide": [
+      "Input your corporation's net income and select the 'Salary vs. Dividend' mix for 2026.",
+      "Calculate the personal Ontario tax liability based on the latest 'Eligible' vs. 'Non-eligible' dividend rates.",
+      "Analyze the impact of the new federal capital gains inclusion rate on your long-term corporate investments."
+    ]
+  },
+  "baby-houston-pediatric": {
+    "id": "baby-houston-pediatric",
+    "local_insight": "In 2026, Houston's pediatric market is highly specialized, and parents in the Texas Medical Center area demand precision-based nutritional tracking. With the latest FDA guidelines on formula safety and the rising cost of organic baby products in Texas, managing the 'First Year' budget is a major financial hurdle. Our tool factors in the specific Houston retail price index for premium formula and the latest Texas WIC (Women, Infants, and Children) program thresholds. We provide a surgical feeding schedule and budget estimator that accounts for Houston's high-heat hydration needs and the standard pediatric growth curve for 2026.",
+    "step_by_step_guide": [
+      "Input your baby's weight and age to calculate the FDA-recommended daily formula intake (oz).",
+      "Generate a monthly budget based on current Houston-area pricing for standard vs. organic formula.",
+      "Estimate the 'Solid Food Transition' cost based on the latest 2026 pediatric allergy guidelines."
+    ]
+  },
+  "vaping-california-mix": {
+    "id": "vaping-california-mix",
+    "local_insight": "The 2026 California vaping market is one of the most regulated in the world, following the statewide flavor ban and the strict 'PMTA' enforcement. For DIY enthusiasts in the San Francisco or LA subcultures, navigating the specific CA 'Tobacco Tax' and the 'PACT Act' shipping restrictions is the only way to remain compliant. Our tool factors in the latest 2026 California excise taxes on nicotine products and the surgical PG/VG/Nicotine ratios required for precision mixing. We specifically optimize for 'Flavor-Free' or compliant DIY formulations, helping users avoid the 40%+ markup seen in brick-and-mortar CA vape shops.",
+    "step_by_step_guide": [
+      "Select your nicotine base strength and calculate the specific CA excise tax per milliliter.",
+      "Determine the precise PG/VG ratio for 'Stealth' vs. 'Cloud' production based on CA hardware trends.",
+      "Log your DIY recipes and calculate the cost-saving ROI compared to California retail pricing."
+    ]
+  },
+  "gardening-atlanta-soil": {
+    "id": "gardening-atlanta-soil",
+    "local_insight": "In 2026, Atlanta’s 'Urban Forest' gardening trend is focused on the 'Georgia Red Clay' challenge. For gardeners in Inman Park or Buckhead, the key to success is aggressive soil amendment and navigating the high humidity of the US Southeast. Our tool factors in the latest 2026 pricing for organic compost and topsoil in the Atlanta metro area. We specifically calculate the 'Soil Drainage' requirements for raised beds, ensuring your vegetables survive the intense Georgia summer heat. Our model accounts for the latest 2025 USDA hardiness zone shifts (Zone 8a/8b) and the specific organic fertilizer needs of the local soil profile.",
+    "step_by_step_guide": [
+      "Input your raised bed dimensions to calculate the cubic yards of soil and compost needed.",
+      "Determine the ROI of 'Organic Amendment' based on current Atlanta bulk soil delivery rates.",
+      "Generate a seasonal planting schedule optimized for the 2026 Georgia growing season (Zones 8a/8b)."
+    ]
+  },
+  "sustainability-london-carbon": {
+    "id": "sustainability-london-carbon",
+    "local_insight": "London’s 2026 'Net Zero' strategy and the expansion of the Ultra Low Emission Zone (ULEZ) have made personal carbon tracking a financial necessity. For residents in the City or Southwark, the cost of 'Carbon Offsetting' is becoming integrated into daily life, from flight surcharges at Heathrow to the 'Green Energy' premiums on Thames Water bills. Our tool factors in the latest UK Government carbon conversion factors for 2026 and the specific ROI of switching to heat pumps in historic London terraced houses. We provide a surgical look at your 'Carbon Footprint' including the impact of London's world-class public transport vs. private EV ownership.",
+    "step_by_step_guide": [
+      "Input your annual mileage and home energy type to calculate your 2026 UK carbon footprint (tonnes).",
+      "Compare the 'Carbon ROI' of an Air Source Heat Pump vs. traditional London gas boiler heating.",
+      "Estimate the annual savings from ULEZ-compliant travel and the latest UK 'Green Grant' offsets."
+    ]
+  },
+  "dividend-uk-isa": {
+    "id": "dividend-uk-isa",
+    "local_insight": "In 2026, the UK 'Dividend Allowance' remains at a historically low ￡500, making the Stocks & Shares ISA the only true sanctuary for London-based income investors. For those in the 'FIRE' (Financial Independence, Retire Early) community, navigating the 2025-2026 tax year requires a surgical look at the Dividend Tax rates (8.75% for basic rate, 33.75% for higher rate). Our tool factors in the 2026 ISA contribution limit (￡20,000) and the compounding effect of the 'DRIP' (Dividend Reinvestment Plan) within a tax-free wrapper, ensuring your UK equity portfolio is optimized for long-term passive income without the HMRC 'tax drag'.",
+    "step_by_step_guide": [
+      "Input your current UK stock portfolio and select your tax bracket to see the impact of the ￡500 allowance.",
+      "Calculate the 20-year ROI of maximizing your ￡20,000 annual ISA contribution with 4% dividend reinvestment.",
+      "Analyze the 'Tax Drag' on your non-ISA dividend income based on current 2026 HMRC rates."
+    ]
+  },
+  "backpacking-colorado-ultralight": {
+    "id": "backpacking-colorado-ultralight",
+    "local_insight": "Backpacking in Colorado’s high country (10,000ft+) in 2026 has transitioned to a 'Data-First' ultralight philosophy. For trekkers on the Colorado Trail or in Rocky Mountain National Park, every gram counts against the thinning oxygen and the increasingly volatile 'Front Range' weather patterns. Our tool factors in the specific 'High-Altitude Calorie Burn' (averaging 4,500-6,000 kcal/day) and the mandatory 'Bear Canister' weights required by the latest US Forest Service regulations. We calculate your 'Base Weight' and the ROI of investing in DCF (Dyneema Composite Fabric) gear, ensuring your 2026 trek is both safe and sub-10lbs for the ultimate alpine performance.",
+    "step_by_step_guide": [
+      "Log every item in your 'Big 3' (Pack, Shelter, Sleep System) to calculate your 2026 base weight.",
+      "Calculate your 'Water Weight' logistics based on current Colorado snowpack and creek flow data.",
+      "Estimate the 'High-Altitude Calorie Deficit' to ensure your food bag is nutritionally optimized for the trek."
+    ]
+  },
+  "rental-yield-dublin-rtb": {
+    "id": "rental-yield-dublin-rtb",
+    "local_insight": "Investing in Dublin’s rental market in 2026 is a high-stakes navigate of the 'Rent Pressure Zones' (RPZs) and the latest Residential Tenancies Board (RTB) annual registration mandates. With Dublin rents at all-time highs but supply at record lows, ROI is driven by long-term occupancy rather than annual hikes, which are capped at 2% or the rate of inflation. Our tool factors in the 2026 Irish tax rates (up to 40% on rental income) and the mandatory PRSI and USC contributions. We provide a surgical look at your 'Net Yield' after factoring in the specific Dublin management fees (typically 8-10%) and the latest compliance costs for Ber A-rated energy requirements.",
+    "step_by_step_guide": [
+      "Input the current property price and select your 'RPZ' status to check for the 2% rent increase cap.",
+      "Calculate the net ROI after Irish income tax, PRSI, and USC on your Dublin rental revenue.",
+      "Allocate a 10% 'Compliance Fund' for RTB registration and mandatory Dublin safety certifications."
+    ]
+  },
+  "mortgage-auckland-lvr": {
+    "id": "mortgage-auckland-lvr",
+    "local_insight": "The Auckland mortgage market in 2026 is defined by the Reserve Bank of New Zealand's (RBNZ) strict LVR (Loan-to-Value Ratio) restrictions and the latest 'Debt-to-Income' (DTI) caps. For first-home buyers in the 'Super City,' navigating the 2025-2026 interest rate stabilization requires a surgical look at 'Equity Buffers.' Our tool factors in the current Auckland median house prices and the specific 20% deposit requirements for owner-occupiers vs. 35% for investors. We provide a 'Stress Test' based on current ANZ/ASB floating rates, ensuring your Auckland home purchase is sustainable against the 2026 cost-of-living index in NZ.",
+    "step_by_step_guide": [
+      "Input your NZD deposit and household income to check compliance with RBNZ’s DTI (Debt-to-Income) limits.",
+      "Calculate your monthly repayments based on current Auckland mortgage rates plus a 2% stress-test buffer.",
+      "Estimate your NZ 'First Home Grant' eligibility to reduce the upfront deposit required for your Auckland purchase."
+    ]
+  },
+  "fitness-sydney-hydration": {
+    "id": "fitness-sydney-hydration",
+    "local_insight": "In 2026, Sydney’s outdoor fitness culture—from the Bondi-to-Bronte run to F45 sessions in Surry Hills—is focused on 'Climate-Adjusted' performance. With Sydney experiencing more frequent 'Extreme Heat' days (35°C+), the core challenge for athletes is hydration and electrolyte balance to avoid heat exhaustion. Our tool factors in the current Bureau of Meteorology (BOM) humidity index for the NSW coast and the specific 'Sweat Rate' metrics for high-intensity training. We calculate your 2026 nutrition plan based on the 'Sydney Active' lifestyle, accounting for the higher caloric burn of beach-based resistance training and the local preference for high-protein, clean-label Aussie brands.",
+    "step_by_step_guide": [
+      "Input your training type (e.g., Soft Sand Run vs. Urban Gym) to calculate specific calorie burn rates.",
+      "Generate a 'Sydney Heat' hydration plan with specific sodium/magnesium ratios for outdoor summer training.",
+      "Calculate your 'Macro Split' to support lean muscle retention while navigating Sydney’s high-activity social life."
+    ]
+  },
+  "niches": {
+    "keto": {
+      "id": "keto",
+      "name": "Keto & Fitness",
+      "title": "The Ultimate Keto Macro Calculator Generator for Fitness Bloggers",
+      "placeholders": "Current Weight (lbs), Target Weight (lbs), Body Fat %, Activity Level (1.2-1.9)",
+      "seo_description": "Boost your fitness blog engagement with a bespoke Keto Macro Calculator. In 2025, interactive health tools are essential for SEO, helping readers calculate fat, protein, and carb ratios instantly based on the latest ketogenic guidelines.",
+      "schema_desc": "An interactive tool for health influencers to provide personalized macronutrient distributions for the ketogenic diet.",
+      "hook": "How to calculate keto macros accurately for weight loss 2025.",
+      "industry_context": "With the 2026 ketogenic diet guidelines emphasizing personalized macronutrient ratios, health professionals need precise calculation tools that account for individual metabolic variances, activity levels, and body composition metrics to optimize fat-burning efficiency and prevent nutritional deficiencies."
+    },
+    "airbnb": {
+      "id": "airbnb",
+      "name": "Real Estate & Airbnb",
+      "title": "Professional Airbnb Profitability & ROI Calculator for Real Estate Blogs",
+      "placeholders": "Property Price, Monthly Mortgage, Average Nightly Rate, Occupancy Rate (%)",
+      "seo_description": "Empower your real estate audience with an Airbnb ROI tool. Perfect for property investors looking to estimate monthly cash flow and annual yields in high-demand rental markets.",
+      "schema_desc": "A financial modeling tool for calculating short-term rental profitability and investment return on investment (ROI).",
+      "hook": "Best Airbnb profit estimator for property investment blogs.",
+      "industry_context": "In 2026, short-term rental operators face complex revenue forecasting challenges due to dynamic pricing algorithms, fluctuating occupancy rates, and evolving local regulatory frameworks, requiring sophisticated ROI calculations that integrate seasonal demand patterns and operational expenses."
+    },
+    "saas": {
+      "id": "saas",
+      "name": "SaaS & Startups",
+      "title": "SaaS LTV & Churn Rate Calculator for B2B Growth Marketers",
+      "placeholders": "Monthly Active Users, Average Revenue Per User (ARPU), Churn Rate (%), Customer Acquisition Cost (CAC)",
+      "seo_description": "Help your startup audience master their metrics. This SaaS calculator helps founders visualize Lifetime Value (LTV) and CAC ratios to ensure sustainable business growth.",
+      "schema_desc": "A business intelligence widget for calculating unit economics including LTV, CAC, and monthly recurring revenue churn.",
+      "hook": "How to calculate SaaS LTV and Churn for growth marketing 2025.",
+      "industry_context": "SaaS businesses in 2026 grapple with increasingly complex unit economics as customer acquisition costs rise and retention becomes paramount, necessitating precise LTV:CAC ratio calculations that factor in multi-year subscription cycles and expansion revenue opportunities."
+    }
+  },
+    "real-estate-london": {
+      "id": "real-estate-london",
+      "name": "London Rental Yield",
+      "title": "Rental Yield & Stamp Duty Calculator for London Landlords",
+      "placeholders": "Property Price (￡), Monthly Rent (￡), Stamp Duty Rate (%), Maintenance Cost",
+      "seo_description": "Accurately calculate London property ROI. Factors in UK Stamp Duty (SDLT) and specific London rental market growth for 2025.",
+      "schema_desc": "A professional financial modeling tool for calculating buy-to-let profitability in the London housing market.",
+      "hook": "How to calculate rental yield in London 2025.",
+      "local_insight": "Navigating the London property market in 2025-2026 requires a deep understanding of the shifting Stamp Duty Land Tax (SDLT) thresholds. Following the expiration of temporary relief measures, investors must account for the 5% surcharge on additional properties and the specific tax brackets for non-UK residents. With London's rental yields currently averaging between 4.5% and 6%, precision in calculating net ROI is vital, especially considering the Renters’ Rights Bill impacts on professional landlords.",
+      "step_by_step_guide": [
+        "Enter the purchase price and determine your residency status to calculate the exact SDLT liability.",
+        "Input projected monthly rent based on current borough-specific data (e.g., Hackney vs. Wandsworth).",
+        "Factor in a 10-15% buffer for management fees and mandatory safety compliance costs."
+      ]
+    },
+    "tax-singapore": {
+      "id": "tax-singapore",
+      "name": "Singapore Tax",
+      "title": "Singapore Personal Income Tax & CPF Contribution Estimator",
+      "placeholders": "Annual Salary (SGD), Bonus, CPF Rate, Reliefs",
+      "seo_description": "Calculate your net take-home pay in Singapore. Includes current CPF rates and IRAS tax brackets.",
+      "schema_desc": "Singapore-specific salary and tax modeling tool.",
+      "hook": "Singapore take home pay calculator with CPF.",
+      "local_insight": "In 2025, Singapore’s personal income tax system has undergone strategic adjustments. For high-earners, navigating the marginal tax rates—which now top out at 24%—requires understanding CPF contribution changes and the refined Not-Ordinarily Resident (NOR) scheme. With GST at 9%, calculating true take-home pay requires looking at tax reliefs (capped at SGD 80,000) and SRS offsets.",
+      "step_by_step_guide": [
+        "Input your total annual remuneration, including AWS and performance bonuses.",
+        "Apply the max-capped SGD 80,000 personal tax relief to see your final chargeable income.",
+        "Calculate the tax-saving impact of voluntary SRS contributions."
+      ]
+    },
+    "business-berlin-esop": {
+      "id": "business-berlin-esop",
+      "name": "Berlin Startup Equity",
+      "title": "Berlin Startup Equity & Stock Option (ESOP) Tax Tool",
+      "placeholders": "Number of Options, Strike Price (€), Exit Valuation, German Tax Class",
+      "seo_description": "Understand your Berlin startup offer. Calculate potential exit value and German taxes on stock options.",
+      "schema_desc": "German financial tool for startup employees and stock option modeling.",
+      "hook": "Berlin startup ESOP tax and profit calculator.",
+      "local_insight": "In 2026, the Berlin startup ecosystem benefits from the 'Future Financing Act' (Zukunftsfinanzierungsgesetz), improving tax deferral for ESOP. Taxation is deferred until a liquidity event. Our tool factors in 2026 German progressive income tax and the 25% Abgeltungsteuer potential, evaluating your offer against social security ceilings.",
+      "step_by_step_guide": [
+        "Input the strike price and projected exit valuation to calculate the 'Geldwerter Vorteil'.",
+        "Select your German tax class to see the progressive impact on net gains.",
+        "Estimate the net cash value after mandatory German social security deductions."
+      ]
+    },
+    "vanlife-australia": {
+      "id": "vanlife-australia-budget",
+      "name": "Australia Van Budget",
+      "title": "Van life in Australia 2026: The Big Lap Daily Cost Calculator",
+      "placeholders": "Total KM, L/100km, Diesel Price (AUD), Daily Camping Budget",
+      "seo_description": "Surgical budget for the Big Lap. Factors in 2026 diesel prices in remote NT and greywater disposal fines in NSW.",
+      "schema_desc": "A travel logistics tool for Australian road trips and van life.",
+      "hook": "Australia East Coast van trip budget calculator.",
+      "local_insight": "Van life in Australia in 2026 has become a data-driven lifestyle. With diesel prices in remote NT and WA often 40% higher than in Sydney, a surgical budget is required. Factors in 2026 'Greywater Disposal' fines in NSW and the ROI of a 400Ah+ Lithium battery system to avoid expensive campgrounds.",
+      "step_by_step_guide": [
+        "Input your van’s L/100km efficiency and apply a 30% 'Outback Fuel Premium' for remote segments.",
+        "Calculate the cost-saving ROI of a high-yield solar setup vs. paying for $50/night powered sites.",
+        "Allocate a $1,500 'Emergency Mechanical Fund' for corrugated roads."
+      ]
+    },
+    "solar-texas": {
+      "id": "solar-texas",
+      "name": "Texas Solar ROI",
+      "title": "Texas Solar ROI Estimator: Calculate Savings with Federal & TX Incentives",
+      "placeholders": "Monthly Bill ($), Roof Sunlight Hours, TX Utility Rate, Federal Tax Credit (%)",
+      "seo_description": "Texas homeowners can estimate solar payback periods. Includes local utility buy-back rates and Texas-specific sun exposure data for 2026.",
+      "schema_desc": "Renewable energy calculator optimized for Texas solar radiation and utility regulations.",
+      "hook": "Solar panel savings calculator for Texas homeowners.",
+      "local_insight": "The Texas solar market is uniquely shaped by the ERCOT grid's volatility. Unlike other states, Texas offers a 'Wild West' of buy-back programs where ROI depends on your Retail Electric Provider (REP). Our model factors in current TXU and Reliant buy-back trends to ensure energy independence.",
+      "step_by_step_guide": [
+        "Verify your local REP's current buy-back rate to see if they offer 1-to-1 net metering credits.",
+        "Input your roof's average sun hours—Texas averages 5.5 hours, but West Texas can reach 6+.",
+        "Apply the 30% Federal Tax Credit to your total system cost."
+      ]
+    },
+    "tax-california": {
+      "id": "tax-california",
+      "name": "CA Freelance Tax",
+      "title": "California Freelance Tax & Take-Home Pay Estimator",
+      "placeholders": "Annual Gross Income, Business Expenses, CA State Tax Bracket, Filing Status",
+      "seo_description": "Estimate your California state and federal tax obligations for freelance income. Essential for solopreneurs in LA and SF.",
+      "schema_desc": "A California-specific income tax tool for self-employed individuals and 1099 contractors.",
+      "hook": "California freelance tax calculator 2025.",
+      "local_insight": "California features high progressive state income tax brackets and the strict AB5 'gig work' classification. Beyond federal SE tax, residents must navigate the Mental Health Services Tax for high earners. Our estimator helps you set aside the correct percentage so you aren't blindsided.",
+      "step_by_step_guide": [
+        "Categorize your 1099 income and deduct CA-specific business expenses like home office credits.",
+        "Estimate your CA State Income Tax bracket based on total household adjusted gross income.",
+        "Generate a quarterly payment schedule to avoid FTB underpayment penalties."
+      ]
+    },
+    "wedding-nyc": {
+      "id": "wedding-nyc",
+      "name": "NYC Wedding Budget",
+      "title": "NYC Luxury Wedding Budget Planner & Venue Cost Estimator",
+      "placeholders": "Total Budget ($), Guest Count, Manhattan Venue Premium, Catering per Head",
+      "seo_description": "Planning a wedding in NYC? Calculate your costs based on current Manhattan and Brooklyn venue pricing and service rates.",
+      "schema_desc": "A high-end event planning tool for New York City wedding market analysis.",
+      "hook": "Average cost of a wedding in NYC 2025 calculator.",
+      "local_insight": "In NYC, venue costs in Manhattan command a 40% premium. Our planner accounts for the mandatory 8.875% sales tax and standard 20-22% service charges seen at top venues. Precision budgeting here is the difference between a dream wedding and a financial nightmare.",
+      "step_by_step_guide": [
+        "Define your 'Guest Count vs. Borough' ratio—Manhattan venues often have strict capacity minimums.",
+        "Allocate 50% of your budget to 'Catering & Venue' to account for NYC high labor costs.",
+        "Set aside a 10% 'City Contingency' fund for unexpected permits."
+      ]
+    },
+    "airbnb-florida": {
+      "id": "airbnb-florida",
+      "name": "Florida Airbnb Profit",
+      "title": "Florida Vacation Rental Profitability & Tourist Tax Calculator",
+      "placeholders": "Daily Rate ($), Occupancy %, Florida County Tourist Tax, Insurance",
+      "seo_description": "Estimate Airbnb ROI in Florida. Includes considerations for seasonal occupancy and local county-level tourist taxes.",
+      "schema_desc": "A short-term rental ROI tool for the Florida tourism and real estate market.",
+      "hook": "Is Airbnb profitable in Florida? ROI calculator.",
+      "local_insight": "Florida ROI is no longer just about occupancy; it’s about managing the 'Tourist Development Tax' and rising hurricane-resilient maintenance costs. Our 2026 model factors in seasonal flux (peak winter vs. humid summer) and county-level tax rates.",
+      "step_by_step_guide": [
+        "Enter your county to apply the correct local Tourist Development Tax (TDT) rate.",
+        "Adjust occupancy expectations for the 'Off-Season' (typically August-September).",
+        "Factor in the 30% rise in Florida property insurance premiums."
+      ]
+    },
+    "wedding-santorini": {
+      "id": "wedding-santorini",
+      "name": "Santorini Wedding",
+      "title": "Santorini Destination Wedding Venue & Travel Budget Planner",
+      "placeholders": "Guest Count, Venue Fee (€), Hotel Block Cost, VAT (24%)",
+      "seo_description": "Dream Santorini wedding? Estimate costs for caldera-view venues, local photographers, and guest hospitality.",
+      "schema_desc": "Event planning tool for the Greek destination wedding market.",
+      "hook": "Average cost of a Santorini wedding 2025.",
+      "local_insight": "Santorini in 2026 is a balancing act. Peak season prices in Oia have reached record highs. Factors in the Greek VAT at 24%, the mandatory 'Municipal Tax', and high logistics costs for transporting premium decor to a volcanic island.",
+      "step_by_step_guide": [
+        "Select your 'View Grade'—Caldera View vs. East Side—to see a 40% price difference.",
+        "Account for the 'Island Logistics Fee'—typically a 15% surcharge for vendors from Athens.",
+        "Calculate guest hospitality cost including the Santorini-specific 'Environmental Fee' for hotel stays."
+      ]
+    },
+    "crypto-dubai": {
+      "id": "crypto-dubai",
+      "name": "Dubai Crypto Profit",
+      "title": "Dubai Zero-Tax Crypto Profit & Global ROI Calculator",
+      "placeholders": "Investment Amount, Buy Price, Current Price, Platform Fees",
+      "seo_description": "Calculate crypto returns in the UAE. Perfect for Dubai-based expats enjoying zero capital gains tax.",
+      "schema_desc": "Global crypto investment tool optimized for tax-free jurisdictions like Dubai.",
+      "hook": "Dubai crypto profit calculator 0% tax.",
+      "local_insight": "Dubai remains a premier hub due to 0% personal income tax and the progressive VARA framework. However, 2026 requires stay-compliant with UAE's AML standards and navigating 'Corporate Tax' implications for licensed OTC desks.",
+      "step_by_step_guide": [
+        "Log your trade volume to calculate the savings compared to a 20-30% CGT in the US/EU.",
+        "Factor in local VARA-approved exchange spreads and bank transfer fees.",
+        "Simulate 'Net Wealth Growth' over a 5-year period using Dubai’s zero-tax compounding."
+      ]
+    },
+    "tax-portugal-nomad": {
+      "id": "tax-portugal-nomad",
+      "name": "Portugal Nomad Tax",
+      "title": "Portugal Digital Nomad Tax & NHR 2.0 Take-Home Estimator",
+      "placeholders": "Foreign Income (€), Self-Employed Expenses, NHR Status (Y/N), Social Security",
+      "seo_description": "Moving to Portugal? Calculate your net income under the new NHR 2.0 and Digital Nomad Visa tax rules.",
+      "schema_desc": "A specialized financial tool for expats and digital nomads in Portugal.",
+      "hook": "Portugal digital nomad tax calculator 2025.",
+      "local_insight": "Portugal 2026 is defined by the transition from old NHR to NHR 2.0. Navigating the 25% Social Security contribution and tiered income tax (up to 48%) is the biggest challenge for those on a Digital Nomad Visa.",
+      "step_by_step_guide": [
+        "Determine your NHR 2.0 eligibility based on 'High Value Activity' professional codes.",
+        "Calculate Social Security liability—capped at 12 times the IAS (Social Support Index).",
+        "Contrast net income with the cost of living in Lisbon vs. Porto."
+      ]
+    },
+    "real-estate-austin": {
+      "id": "real-estate-austin",
+      "name": "Austin Property ROI",
+      "title": "Austin Rental Property ROI & Texas Property Tax Estimator",
+      "placeholders": "Property Value ($), Monthly Rent ($), Austin Property Tax %, Insurance",
+      "seo_description": "Calculate cash flow in the Silicon Hills. Factors in Austin's specific property tax rates and market shifts.",
+      "schema_desc": "Austin-specific real estate financial modeling for local landlords.",
+      "hook": "Austin rental cash flow calculator 2025.",
+      "local_insight": "Austin has transitioned to a 'Tech-Hub Maturity'. High property tax rates (2.2%-2.8%) can significantly erode cash flow. Factors in the Travis Central Appraisal District (TCAD) protest trends and latest Homestead Exemption rules.",
+      "step_by_step_guide": [
+        "Input the property’s appraised value and apply the current 2.5% tax estimate.",
+        "Adjust 'Vacancy Rate' to 7% to reflect the influx of multi-family supply.",
+        "Calculate ROI benefit of the Samsung/Tesla 'Tech Halo' by projecting 4-6% rent growth."
+      ]
+    },
+    "tax-uk-cgt-crypto": {
+      "id": "tax-uk-cgt-crypto",
+      "name": "UK Crypto Tax",
+      "title": "UK Crypto Capital Gains (HMRC) Tax & Section 104 Pool Calculator",
+      "placeholders": "Buy Price (￡), Sell Price (￡), HMRC Allowance, Trading Costs",
+      "seo_description": "Stay compliant with HMRC's strict 2025 crypto rules. Calculate your Section 104 pool and utilized CGT allowance for the UK tax year.",
+      "schema_desc": "HMRC-compliant crypto tax calculator for UK residents.",
+      "hook": "UK crypto tax calculator HMRC 2025.",
+      "local_insight": "In 2025-2026, HMRC is using automated data sharing with exchanges to target crypto traders. With the CGT allowance slashed to ￡3,000, precision in 'pooling' and 'bed and breakfasting' rules is the only way to protect your UK portfolio ROI.",
+      "step_by_step_guide": [
+        "Import your trade history to generate a 'Section 104' compliant cost-basis pool.",
+        "Calculate your remaining ￡3,000 CGT allowance for the current UK tax year.",
+        "Identify tax-loss harvesting opportunities before the April 5th deadline."
+      ]
+    },
+    "solar-barcelona-grants": {
+      "id": "solar-barcelona-grants",
+      "name": "Spain Solar ROI",
+      "title": "Spain Self-Consumption Solar ROI & EU NextGen Grant Estimator",
+      "placeholders": "Install Cost (€), Monthly Bill (€), EU Grant %, Self-Consumption %",
+      "seo_description": "Calculate solar ROI in Spain. Factors in Barcelona's sun hours and EU NextGen sustainability grants for 2026.",
+      "schema_desc": "Spanish-specific solar ROI tool adjusted for EU sustainability subsidies.",
+      "hook": "Spain solar panel ROI and EU grant calculator.",
+      "local_insight": "Spain’s 'Sunshine State' status is finally backed by the abolition of the 'Sun Tax' and the influx of EU NextGen funds. In Barcelona, rooftop solar now achieves ROI in under 5 years if you maximize self-consumption during the 11 AM - 3 PM peak.",
+      "step_by_step_guide": [
+        "Select your Spanish region to apply for specific EU NextGen local grants.",
+        "Calculate the impact of 'Autoconsumo' (Self-consumption) on your monthly bill.",
+        "Determine the payback period factoring in the IBI (property tax) discounts in Barcelona."
+      ]
+    },
+    "fitness-nyc-hiit": {
+      "id": "fitness-nyc-hiit",
+      "name": "NYC HIIT Tracker",
+      "title": "Manhattan High-Intensity HIIT & Metro Cardio Burn Calculator",
+      "placeholders": "Weight (lbs), HIIT Minutes, Walking Steps, Subway Stairs Count",
+      "seo_description": "Built for the fast-paced NYC life. Track calories burned from HIIT classes to climbing Manhattan subway stairs.",
+      "schema_desc": "Localized fitness tool for New York City professionals.",
+      "hook": "Manhattan HIIT class calorie calculator.",
+      "local_insight": "NYC fitness in 2026 is about 'Micro-Efforts'. This tool factors in the high caloric cost of 'Subway Commuting' and the 10,000-step baseline typical of a Manhattan professional, ensuring your macros match your urban burn rate.",
+      "step_by_step_guide": [
+        "Input your HIIT class duration (e.g., Barry's or SoulCycle).",
+        "Add your 'Metro Movement' factor—climbing stairs in NYC burns 2x more than flat walking.",
+        "Generate a protein-rich meal plan tailored for high-stress, high-activity city living."
+      ]
+    },
+    "real-estate-calgary-ab": {
+      "id": "real-estate-calgary-ab",
+      "name": "Calgary Property ROI",
+      "title": "Calgary Mortgage & Alberta Tax Advantage ROI Estimator",
+      "placeholders": "Home Price (CAD), Annual Rent (CAD), Property Tax %, Insurance",
+      "seo_description": "Calculate your mortgage in Calgary. See the 'Alberta Advantage' with lower tax impacts on your monthly rental budget.",
+      "schema_desc": "Canadian mortgage tool optimized for the Calgary, Alberta market.",
+      "hook": "Calgary mortgage calculator with Alberta tax.",
+      "local_insight": "Calgary in 2026 is the sanctuary for BC and Ontario refugees. With no provincial sales tax and a lower property tax millage rate than Toronto, your cash-on-cash return here is significantly higher. Factors in the 'Alberta Advantage' for landlords.",
+      "step_by_step_guide": [
+        "Input the home price and compare Alberta's 0% land transfer tax vs. other provinces.",
+        "Calculate net yield based on Calgary's current 5.5% - 7.2% rental market averages.",
+        "Factor in 'Winter Utility' buffers to ensure your net cash flow stays positive in -30°C."
+      ]
+    },
+    "wedding-bali-uluwatu": {
+      "id": "wedding-bali-uluwatu",
+      "name": "Bali Villa Wedding",
+      "title": "Bali Uluwatu Villa Wedding Venue & Local Banjar Permit Planner",
+      "placeholders": "Guest Count, Villa Fee ($), Banjar Fee, Catering per Head",
+      "seo_description": "Planning a Bali wedding? Estimate costs for Uluwatu villas, local catering, and mandatory Banjar wedding permits.",
+      "schema_desc": "Event planning tool for the Bali destination wedding market.",
+      "hook": "How much for a Bali villa wedding? Calculator.",
+      "local_insight": "A 2026 Bali villa wedding in Uluwatu is a luxury statement. Beyond the 11% VAT, you must account for the 'Banjar' fee and the sound-level curfews. Our model factors in the strategic advantage of symbolic ceremonies to avoid Indonesian red tape.",
+      "step_by_step_guide": [
+        "Select your 'Villa Tier' to apply for mandatory local community (Banjar) permits.",
+        "Allocate a 15% budget for international vendor travel and local tax (21% tax & service).",
+        "Contrast the ROI of a 'Shoulder Season' wedding (May/Oct) against peak August rates."
+      ]
+    },
+    "tax-seattle-amazon": {
+      "id": "tax-seattle-amazon",
+      "name": "Seattle Tech Tax",
+      "title": "Seattle Tech RSU & Washington State Capital Gains Tax Optimizer",
+      "placeholders": "Base Salary ($), RSU Vest Value, WA Cap Gains Rate (7%), 401k Match",
+      "seo_description": "Optimize your Seattle tech pay. Calculate RSU tax impacts and the Washington state capital gains threshold for 2026.",
+      "schema_desc": "Washington-specific financial tool for tech professionals with stock compensation.",
+      "hook": "Seattle tech RSU tax and net profit calculator.",
+      "local_insight": "Seattle workers now face a 7% WA Capital Gains tax on gains over $250k. In 2026, managing the timing of your Amazon or Microsoft RSU vests is critical to stay under the tax trigger while maximizing WA's 0% state income tax.",
+      "step_by_step_guide": [
+        "Input your base salary and the market value of your RSU vest dates.",
+        "Calculate the 7% WA Capital Gains tax if your long-term gains exceed the $250k threshold.",
+        "Generate a 'Tax-Loss Harvesting' plan to offset potential WA state tax liabilities."
+      ]
+    },
+    "real-estate-nashville-str": {
+      "id": "real-estate-nashville-str",
+      "name": "Nashville Airbnb ROI",
+      "title": "Nashville Short-Term Rental (STR) Permit & ROI Profit Estimator",
+      "placeholders": "Daily Rate ($), Occupancy %, STR Permit Fee, Management Fee",
+      "seo_description": "Invest in Music City. Calculate Airbnb ROI while factoring in Nashville's specific 2026 STR permit rules and permit caps.",
+      "schema_desc": "Nashville-specific short-term rental financial modeling.",
+      "hook": "Nashville Airbnb ROI and permit cost calculator.",
+      "local_insight": "Nashville is the STR capital of the US South, but permit caps in Davidson County are strict. In 2026, ROI is driven by 'Owner-Occupied' permits vs. 'Non-Owner Occupied' status. Factors in the 6% Nashville hotel tax.",
+      "step_by_step_guide": [
+        "Check your specific Nashville zone for 'Permit Eligibility' (NOO-STR vs. O-STR).",
+        "Input your projected 'Event Premium' for CMA Fest or Titans home games.",
+        "Factor in the 6% hotel/motel tax plus the $2.50 nightly Nashville local tax."
+      ]
+    },
+    "fitness-sydney-bondi": {
+      "id": "fitness-sydney-bondi",
+      "name": "Sydney Beach Fitness",
+      "title": "Sydney Bondi Beach Fitness & High-Heat Hydration Calculator",
+      "placeholders": "Weight (kg), Run Duration (min), Temp (°C), Humidity %",
+      "seo_description": "Stay hydrated in the Aussie sun. Calculate water and electrolyte needs for Bondi coastal runs and Sydney outdoor training.",
+      "schema_desc": "Localized health tool for the Sydney outdoor fitness community.",
+      "hook": "Sydney outdoor workout hydration calculator.",
+      "local_insight": "Sydney's 2026 fitness culture is 'Climate-Adjusted'. With more 35°C+ days, the Bondi-to-Bronte run requires a surgical approach to sodium/magnesium ratios. This tool uses BOM data to adjust your electrolyte needs for high-humidity coastal cardio.",
+      "step_by_step_guide": [
+        "Input your 'Surface Type'—Soft Sand running burns 1.6x more calories than pavement.",
+        "Calculate fluid loss based on Sydney's current BOM humidity and temperature index.",
+        "Generate a recovery macro split focused on high-quality Australian grass-fed protein."
+      ]
+    },
+    "real-estate-perth-solar": {
+      "id": "real-estate-perth-solar",
+      "name": "Perth Property ROI",
+      "title": "Perth Rental Yield & WA Solar Sponge Feed-in ROI Estimator",
+      "placeholders": "Property Price, Monthly Rent, Solar System Size (kW), Feed-in Rate",
+      "seo_description": "Calculate solar savings in Western Australia. Includes Synergy feed-in rates and Perth's specific 'Solar Sponge' sun exposure.",
+      "schema_desc": "Solar ROI tool specifically for the Perth (WA) energy market.",
+      "hook": "Perth solar payback and feed-in calculator.",
+      "local_insight": "Perth is Australia's solar powerhouse. In 2026, ROI is about the 'Solar Sponge'—Synergy’s low-cost daytime energy window. For landlords, a 6.6kW system now increases rental value by 10-15% in suburbs like Scarborough or Joondalup.",
+      "step_by_step_guide": [
+        "Select your Synergy 'Solar Sponge' plan to see the daytime energy savings.",
+        "Calculate the rental yield premium for 'Solar-Enabled' properties in the Perth market.",
+        "Factor in the 2026 WA water rates—critical for Perth's garden-heavy suburban plots."
+      ]
+    },
+    "tax-canada-ontario": {
+      "id": "tax-canada-ontario",
+      "name": "Ontario Business Tax",
+      "title": "Ontario Small Business Tax & Dividend vs. Salary ROI Estimator",
+      "placeholders": "Net Income (CAD), Salary Amount, Dividend Amount, Expenses",
+      "seo_description": "Optimize your Toronto business income. Calculate corporate tax and personal dividend tax for Ontario CCPCs in 2026.",
+      "schema_desc": "Ontario-specific financial tool for small business tax and dividend planning.",
+      "hook": "Ontario small business tax and dividend calculator.",
+      "local_insight": "For Toronto-based CCPCs, 2026 is about 'Dividend Integration'. Following federal changes to the 'Capital Gains Inclusion Rate', the salary vs. dividend mix is the key to corporate tax deferral. Factors in the 12.2% Ontario small business tax rate.",
+      "step_by_step_guide": [
+        "Input your business net income and compare the 'Grossed-up' dividend vs. salary net pay.",
+        "Calculate the 12.2% Ontario small business rate vs. the 26.5% general rate.",
+        "Analyze the ROI of retaining earnings within the corp for GTA commercial real estate investment."
+      ]
+    },
+    "wedding-lasvegas-chapel": {
+      "id": "wedding-lasvegas-chapel",
+      "name": "Vegas Wedding Quick",
+      "title": "Vegas Destination Wedding Quick-Budget & Chapel Package Estimator",
+      "placeholders": "Guest Count, Chapel Tier, Open Bar (Y/N), Hotel Blocks",
+      "seo_description": "Planning a Vegas wedding? Use this quick estimator for chapel packages, Strip hotel blocks, and 2026 vendor pricing.",
+      "schema_desc": "Event planning tool for the Las Vegas destination wedding market.",
+      "hook": "How much for a Vegas wedding? Budget calculator.",
+      "local_insight": "Las Vegas weddings in 2026 have moved 'Off-Strip' for boutique quality. While chapels like Little White Chapel remain iconic, the 20% 'Resort Fee' on guest blocks is the hidden budget killer. Our tool factors in the 8.375% NV sales tax and 'Minister Tips'.",
+      "step_by_step_guide": [
+        "Select your 'Chapel Style'—Historic Strip vs. Luxury Hotel—to see a $2,000 price delta.",
+        "Calculate the total cost of guest hotel blocks including mandatory Vegas 'Resort Fees'.",
+        "Add the mandatory NV marriage license fee ($102) and standard $60-100 officiant tip."
+      ]
+    },
+    "real-estate-brisbane-fhog": {
+      "id": "real-estate-brisbane-fhog",
+      "name": "Brisbane First Home",
+      "title": "Brisbane First Home Buyer (FHOG) & QLD Mortgage ROI Estimator",
+      "placeholders": "Property Value (AUD), Deposit, QLD Grant (Y/N), Interest Rate",
+      "seo_description": "Calculate your Brisbane mortgage. Factors in the 2026 Queensland First Home Owners Grant (FHOG) for first-time buyers.",
+      "schema_desc": "Queensland-specific mortgage tool for the Brisbane property market.",
+      "hook": "Brisbane first home buyer mortgage calculator.",
+      "local_insight": "Brisbane is gearing up for the 2032 Olympics. In 2026, first-home buyers can leverage the $30k QLD grant for new builds. Our tool factors in the Brisbane-specific property tax and the latest stamp duty concessions for homes under $750k.",
+      "step_by_step_guide": [
+        "Check your eligibility for the $30,000 Queensland First Home Owners Grant (FHOG).",
+        "Calculate stamp duty concessions for Brisbane properties—often $0 for first-timers under $700k.",
+        "Input your 2026 RBA 'Stress Test' interest rate to ensure long-term repayment safety."
+      ]
+    },
+    "vanlife-portland-blm": {
+      "id": "vanlife-portland-blm",
+      "name": "Oregon Van Budget",
+      "title": "Oregon Van Life Budget & Portland Stealth Parking Compliance Tool",
+      "placeholders": "Daily Fuel, Grocery Budget, Solar Input (Wh), Stealth Factor",
+      "seo_description": "Plan your PNW adventure. Calculate fuel and stealth parking costs for living on the road in Portland and Oregon BLM land.",
+      "schema_desc": "Off-grid living tool for the Pacific Northwest van life community.",
+      "hook": "Oregon van life daily cost calculator.",
+      "local_insight": "Portland 2026 has strict 'Overnight Parking' zones. Stealth is key. Our tool factors in the 'Oregon Overcast' solar production drop and the latest BLM 14-day stay monitoring. Calculate your 'Stealth ROI'—avoiding $50/night commercial lots.",
+      "step_by_step_guide": [
+        "Apply the 'PNW Cloud Factor' (0.35) to your solar production for a realistic power budget.",
+        "Calculate the fuel burn for 4x4 segments in the Mt. Hood or Deschutes National Forest.",
+        "Generate a 'Stealth Parking' budget—factoring in city laundry and gym shower memberships."
+      ]
+    },
+    "garden-atlanta-clay": {
+      "id": "garden-atlanta-clay",
+      "name": "Atlanta Soil Volume",
+      "title": "Atlanta Raised Bed Soil & Georgia Red Clay Amendment Estimator",
+      "placeholders": "Bed Area (sqft), Soil Depth (in), Compost Ratio %, Bag Size",
+      "seo_description": "Plan your Atlanta garden. Calculate soil and mulch needs for the Georgia red clay and humid 2026 growing season.",
+      "schema_desc": "Agricultural volume calculator for residential gardening in the US Southeast.",
+      "hook": "Raised bed soil calculator for Atlanta gardens.",
+      "local_insight": "Georgia's red clay is tough. In 2026, Atlanta gardeners focus on 'Raised Bed Sovereignty'. This tool calculates the exact organic-to-clay ratio needed to survive the 95°F+ July humidity. Factors in current Pike Nursery vs. bulk delivery pricing.",
+      "step_by_step_guide": [
+        "Input your raised bed dimensions to calculate cubic yards of topsoil needed.",
+        "Allocate a 40% organic compost mix to break down the dense Atlanta red clay.",
+        "Calculate the cost-benefit of bulk soil delivery vs. buying 40lb bags at local ATL centers."
+      ]
+    },
+    "solar-phoenix-battery": {
+      "id": "solar-phoenix-battery",
+      "name": "Phoenix Solar Heat",
+      "title": "Phoenix Extreme Heat Solar Efficiency & Battery Storage ROI Tool",
+      "placeholders": "Current Bill, Battery Size (kWh), Heat Derating %, APS/SRP Rate",
+      "seo_description": "Calculate solar ROI in Phoenix. Factors in extreme 115°F+ efficiency loss and 2026 Arizona utility rate spikes.",
+      "schema_desc": "Advanced solar ROI tool adjusted for extreme desert temperatures.",
+      "hook": "Phoenix solar panel efficiency calculator 2026.",
+      "local_insight": "In the 'Valley of the Sun', solar efficiency drops by 0.4% for every degree over 77°F. In 2026, ROI is about battery backup for the 5 PM - 9 PM peak. Factors in the latest APS 'Grid Access Charge' for solar customers.",
+      "step_by_step_guide": [
+        "Apply the 15% 'Heat Derating' factor to your summer production for accurate ROI.",
+        "Calculate the payback period for a 13.5kWh battery storage based on current SRP rates.",
+        "Determine the impact of the Arizona 30% state tax credit on your total system cost."
+      ]
+    },
+    "baby-houston-heat": {
+      "id": "baby-houston-heat",
+      "name": "Houston Formula Calc",
+      "title": "Houston Pediatric Formula Intake & High-Heat Hydration Schedule",
+      "placeholders": "Baby Weight (lbs), Age (weeks), Outdoor Temp (°F), Feedings/Day",
+      "seo_description": "Support for Houston parents. Estimate formula and hydration needs based on Texas heat and 2026 pediatric guidelines.",
+      "schema_desc": "Parenting health tool for infant nutritional tracking in humid climates.",
+      "hook": "Baby formula intake calculator Houston.",
+      "local_insight": "Houston humidity affects baby hydration. In 2026, we follow the 'Texas Medical Center' guidelines for heat-based intake adjustments. Our tool calculates the necessary volume increase during 100°F+ humid August weeks.",
+      "step_by_step_guide": [
+        "Input your baby's weight and age for the baseline oz-per-day requirement.",
+        "Adjust volume by 10% for 'High-Heat' days typical of Houston summers.",
+        "Generate a feeding schedule that optimizes for early morning/late evening outdoor time."
+      ]
+    },
+    "wedding-santorini-curfew": {
+      "id": "wedding-santorini-curfew",
+      "local_insight": "A Santorini destination wedding in 2026 is a balancing act between iconic Caldera views and the island's strict over-tourism management policies. In peak season (June-September), venue prices in Oia and Imerovigli have reached record highs, with many locations implementing 'Noise Control' curfews at 11 PM. Our planner factors in the specific Greek VAT at 24%, the mandatory 'Municipal Tax' for beach ceremonies, and the high logistics costs of transporting premium decor to a volcanic island.",
+      "step_by_step_guide": [
+        "Select your 'View Grade'—Caldera View vs. East Side—to see a 40% price difference in venue hire.",
+        "Account for the 'Island Logistics Fee'—typically a 15% surcharge for vendors traveling from Athens.",
+        "Calculate the guest hospitality cost including the Santorini-specific 'Environmental Fee' for hotel stays."
+      ]
+    },
+    "real-estate-london-sdlt": {
+      "id": "real-estate-london-sdlt",
+      "local_insight": "Navigating the London property market in 2025-2026 requires a deep understanding of the shifting Stamp Duty Land Tax (SDLT) thresholds. Following the expiration of temporary relief measures, investors must account for the 5% surcharge on additional properties and the specific tax brackets for non-UK residents. With London's rental yields currently averaging between 4.5% and 6%, precision in calculating net ROI is vital, especially considering the Renters’ Rights Bill impacts on professional landlords.",
+      "step_by_step_guide": [
+        "Enter the purchase price and determine your residency status to calculate the exact SDLT liability.",
+        "Input projected monthly rent based on current borough-specific data (e.g., Hackney vs. Wandsworth).",
+        "Factor in a 10-15% buffer for management fees and mandatory safety compliance costs."
+      ]
+    },
+    "tax-portugal-nhr": {
+      "id": "tax-portugal-nhr",
+      "local_insight": "Portugal’s tax environment for digital nomads in 2026 is defined by the transition from the old NHR to the 'Incentive for Scientific Research and Innovation' (NHR 2.0). While the 20% flat rate is still attainable for high-value tech roles, the eligibility criteria have tightened. For those on the Digital Nomad Visa (DNV), navigating the 25% Social Security contribution and the tiered progressive income tax rates—which can jump to 48%—is the biggest financial challenge.",
+      "step_by_step_guide": [
+        "Determine your NHR 2.0 eligibility based on your specific 'High Value Activity' professional code.",
+        "Calculate your Social Security (Seguran?a Social) liability—capped at 12 times the IAS (Social Support Index).",
+        "Contrast your net income with the cost of living in Lisbon vs. Porto to see your real purchasing power."
+      ]
+    },
+    "business-toronto-mars": {
+      "id": "business-toronto-mars",
+      "local_insight": "Toronto’s tech ecosystem, centered around the MaRS Discovery District and the Financial District, is currently optimizing for 'capital efficiency' over 'growth at all costs.' For startups in the GTA (Greater Toronto Area), managing the burn rate means balancing high Canadian tech salaries with available SR&ED (Scientific Research and Experimental Development) tax credits. Our runway tool helps Toronto founders calculate how much longer their CAD funding will last.",
+      "step_by_step_guide": [
+        "Input your CAD funding and monthly burn, including Toronto's competitive tech salary averages.",
+        "Calculate potential SR&ED tax credit clawbacks to extend your runway by 3-6 months.",
+        "Assess 'Office vs. Remote' costs based on current GTA commercial real estate per-square-foot rates."
+      ]
+    },
+    "fitness-la-biohack": {
+      "id": "fitness-la-biohack",
+      "local_insight": "In Los Angeles, fitness is a cultural currency. The trend for 2026 has shifted from pure aesthetic bodybuilding to high-performance longevity, driven by the Hollywood 'Biohacking' scene. Whether you are training at Gold’s Gym Venice or hiking the Santa Monica Mountains, your TDEE (Total Daily Energy Expenditure) is significantly higher due to LA’s year-round active outdoor culture.",
+      "step_by_step_guide": [
+        "Select your primary LA activity (e.g., Trail Hiking vs. Beach Soft-Sand Training).",
+        "Input your body composition data to calculate your Baseline Metabolic Rate (BMR).",
+        "Generate a 'Red Carpet Ready' macro split tailored for high-protein, clean-eating goals."
+      ]
+    },
+    "crypto-miami-305": {
+      "id": "crypto-miami-305",
+      "local_insight": "Miami has solidified its position as the 'Crypto Capital' of the world, largely due to Florida's lack of state income tax and Mayor Suarez’s pro-Web3 policies. For traders moving from NY or CA, the ROI boost is immediate—a 13% 'tax gift' just for being in the 305. However, 2026 federal IRS reporting requirements for digital assets are stricter than ever.",
+      "step_by_step_guide": [
+        "Import your trade history and calculate net gains across all digital asset classes.",
+        "Contrast your 'Miami Net' against your previous state's tax rate to see your total tax savings.",
+        "Generate a 2026-compliant IRS tax-loss harvesting report to further optimize your ROI."
+      ]
+    },
+    "real-estate-philly-abatement": {
+      "id": "real-estate-philly-abatement",
+      "name": "Philly Rental Yield",
+      "title": "Philly Property Tax Abatement ROI & Rental Yield Estimator",
+      "placeholders": "Property Price ($), Rent ($), Abatement Years Left, Tax Rate",
+      "seo_description": "Invest in Philadelphia. Calculate ROI using current 10-year property tax abatement schedules for new developments and multifamily units in 2026.",
+      "schema_desc": "Philadelphia-specific real estate financial tool for tax-advantaged investing.",
+      "hook": "Philadelphia rental yield with tax abatement calculator.",
+      "local_insight": "Philadelphia's 10-year tax abatement is the primary ROI driver for new builds in Fishtown or Brewerytown. In 2026, navigating the 'Step-Down' abatement schedule is critical for long-term cash flow. Factors in the Philly 'Wage Tax' for out-of-state landlords.",
+      "step_by_step_guide": [
+        "Input the property's year of construction to apply the correct tax abatement step-down rate.",
+        "Calculate net yield after Philadelphia's unique 3.7%+ City Wage Tax for non-residents.",
+        "Factor in a 10% reserve for Philly's aggressive L&I (Licenses and Inspections) compliance cycles."
+      ]
+    },
+    "tax-uk-isa-dividend": {
+      "id": "tax-uk-isa-dividend",
+      "name": "London ISA Dividend",
+      "title": "UK Stocks & Shares ISA Dividend Growth & Tax-Free ROI Tool",
+      "placeholders": "Initial ISA (￡), Monthly Contribution, Dividend Yield %, Years",
+      "seo_description": "Maximize your UK ISA. Project long-term tax-free wealth growth using dividend reinvestment strategies and 2026 HMRC limits.",
+      "schema_desc": "UK-specific financial tool for ISA and dividend growth modeling.",
+      "hook": "UK ISA dividend reinvestment calculator 2026.",
+      "local_insight": "With the UK dividend allowance slashed to ￡500, the ISA is the only sanctuary for London income investors. In 2026, maximizing the ￡20k annual limit with a focus on 'dividend growth' vs. 'high yield' is the key to early retirement (FIRE).",
+      "step_by_step_guide": [
+        "Input your current ISA holdings and project the 20-year ROI of tax-free dividend reinvestment.",
+        "Calculate the 'Tax Drag' savings compared to a standard taxable GIA (General Investment Account).",
+        "Generate a monthly contribution plan to hit the ￡20,000 HMRC annual limit before April 5th."
+      ]
+    },
+    "solar-barcelona-nextgen": {
+      "id": "solar-barcelona-nextgen",
+      "name": "Barcelona Solar ROI",
+      "title": "Barcelona Self-Consumption Solar ROI & EU NextGen Grant Tool",
+      "placeholders": "Install Cost (€), Monthly Bill (€), EU Grant Amount, Self-Consumption %",
+      "seo_description": "Calculate solar ROI in Spain. Factors in Barcelona's sun hours and EU NextGen sustainability grants.",
+      "schema_desc": "Spanish-specific solar ROI tool adjusted for EU sustainability subsidies.",
+      "hook": "Spain solar panel ROI and EU grant calculator.",
+      "local_insight": "Barcelona homeowners can leverage the 'Bonificació de l'IBI' (up to 50% property tax discount) alongside EU grants. In 2026, ROI is driven by the shift from 'Selling to Grid' to 'Virtual Battery' models popular in Catalunya.",
+      "step_by_step_guide": [
+        "Check your eligibility for the Barcelona IBI property tax discount for solar homes.",
+        "Apply for the EU NextGen grants (often covering 30-40% of installation costs).",
+        "Calculate the 2026 electricity savings based on Endesa/Naturgy time-of-use rates."
+      ]
+    },
+    "wedding-bali-banjar": {
+      "id": "wedding-bali-banjar",
+      "name": "Bali Wedding Venue",
+      "title": "Bali Villa Wedding Venue & Local Vendor Budget Planner",
+      "placeholders": "Guest Count, Villa Fee ($), Catering per Head, Legal/Permit Costs",
+      "seo_description": "Planning a Bali wedding? Estimate costs for Canggu or Uluwatu villas, local catering, and wedding permits.",
+      "schema_desc": "Event planning tool for the Bali destination wedding market.",
+      "hook": "How much for a Bali villa wedding? Calculator.",
+      "local_insight": "In 2026, Bali destination weddings require meticulous local compliance. Beyond the 11% VAT and 10% service charge, international couples must account for the 'Banjar' (local village) event fees and the specific 'Zoning' permits.",
+      "step_by_step_guide": [
+        "Differentiate between 'High Season' (Jul/Aug) and 'Low Season' venue pricing for a 35% cost swing.",
+        "Include the mandatory Banjar permit fee (typically $200-$1,000 depending on event scale).",
+        "Factor in the 21% 'Tax & Service' (Tax and Service) typical of premium Balinese wedding catering."
+      ]
+    },
+    "tax-seattle-capitalgains": {
+      "id": "tax-seattle-capitalgains",
+      "name": "Seattle RSU Tax",
+      "title": "Seattle Tech RSU & WA Capital Gains Tax Estimator",
+      "placeholders": "Grant Amount ($), Stock Vest Price, WA Capital Gains Rate %, Base Salary",
+      "seo_description": "Optimize your Seattle tech pay. Calculate RSU tax impacts and the Washington state capital gains threshold.",
+      "schema_desc": "Washington-specific financial tool for tech professionals with stock compensation.",
+      "hook": "Seattle tech RSU tax and net profit calculator.",
+      "local_insight": "Stay below the $250k WA Capital Gains threshold by timing your stock sales. Our tool factors in the federal withholding vs. the 7% WA state levy for employees at Amazon, Microsoft, and Starbucks in 2026.",
+      "step_by_step_guide": [
+        "Input your base salary and the projected value of your 2026 RSU vest dates.",
+        "Calculate the 7% WA Capital Gains tax if your total long-term gains exceed $250,000.",
+        "Optimize your federal tax withholding to avoid underpayment interest during tax season."
+      ]
+    },
+    "real-estate-brisbane-olympics": {
+      "id": "real-estate-brisbane-olympics",
+      "name": "Brisbane Rental Yield",
+      "title": "Brisbane Property ROI & 2032 Olympics Infrastructure Growth Tool",
+      "placeholders": "Property Price (AUD), Rent, Land Tax %, Olympics Proximity Factor",
+      "seo_description": "Invest in the River City. Calculate rental yields in Brisbane while factoring in the 2032 Olympics growth projections and QLD land tax in 2026.",
+      "schema_desc": "Queensland-specific property investment tool for the Brisbane market.",
+      "hook": "Brisbane rental yield and Olympics growth calculator.",
+      "local_insight": "Brisbane is the hottest market in AU due to the 'Olympics Effect'. In 2026, infrastructure in Woolloongabba and Hamilton is driving rent premiums. Factors in the latest QLD land tax thresholds for interstate investors.",
+      "step_by_step_guide": [
+        "Input your property location to apply for the 'Olympics Growth Premium' based on current 2026 data.",
+        "Calculate net yield after QLD land tax and the 2026 Brisbane city council rate hikes.",
+        "Allocate a 10% reserve for Brisbane's rising flood insurance premiums in riverside suburbs."
+      ]
+    },
+    "business-dublin-mnctax": {
+      "id": "business-dublin-mnctax",
+      "name": "Dublin Salary Tool",
+      "title": "Dublin Tech MNC Salary & Irish Tax Estimator",
+      "placeholders": "Gross Salary (€), Pension %, Health Insurance, BIK Benefit",
+      "seo_description": "Calculate your net pay at a Dublin-based tech MNC (Google/Meta). Factors in Irish tax brackets and USC for 2026.",
+      "schema_desc": "Ireland-specific salary and tax modeling tool for Dublin tech workers.",
+      "hook": "Dublin net salary calculator 2025 tech MNC.",
+      "local_insight": "Dublin tech salaries are high, but the 40% top tax rate and USC (Universal Social Charge) are heavy. In 2026, maximizing your PRSA (Pension) is the primary way to protect your 'Big Tech' ROI in the Silicon Docks.",
+      "step_by_step_guide": [
+        "Input your gross salary and bonus to see the impact of the 40% Irish marginal tax bracket.",
+        "Calculate the tax-saving ROI of maximizing your age-related pension contribution (PRSA).",
+        "Factor in the 'Benefit in Kind' (BIK) tax on company health insurance or car allowances."
+      ]
+    },
+    "coffee-barista-ratio": {
+      "id": "coffee-barista-ratio",
+      "name": "Coffee Brew Tool",
+      "title": "Specialty Coffee Brewing Golden Ratio & TDS Extraction Calc",
+      "placeholders": "Coffee Weight (g), Brew Ratio (1:X), Water Temp, Total Volume",
+      "seo_description": "Brew like a pro. Calculate water-to-coffee ratios for pour-over, Aeropress, or Chemex using SCA standards in 2026.",
+      "schema_desc": "Culinary ratio tool for high-end coffee brewing standards.",
+      "hook": "Best pour over coffee ratio calculator 2026.",
+      "local_insight": "Coffee science in 2026 is about 'Precision Extraction'. Whether using a V60 or a Chemex, the 1:16 ratio remains the gold standard. Our tool factors in the 'Bean Density'—accounting for light-roast vs. dark-roast water absorption.",
+      "step_by_step_guide": [
+        "Select your brew method to apply the correct 'SCA Golden Ratio' (e.g., 1:15 to 1:17).",
+        "Input your bean weight; the tool calculates the exact water volume for perfect TDS (Total Dissolved Solids).",
+        "Generate a 'Bloom Schedule' based on your coffee's roast date for maximum flavor release."
+      ]
+    },
+    "golf-handicap-whs": {
+      "id": "golf-handicap-whs",
+      "name": "Golf Stats Tool",
+      "title": "WHS Global Golf Handicap & Course-Adjusted Stroke Estimator",
+      "placeholders": "Course Rating, Slope Rating, Gross Score, Handicap Index",
+      "seo_description": "Calculate your handicap on any global course. Factors in 2026 WHS slope and rating data for accurate performance tracking.",
+      "schema_desc": "Sports analytics tool for golf performance tracking.",
+      "hook": "Global golf handicap calculator 2026.",
+      "local_insight": "The 2026 WHS (World Handicap System) update focuses on 'Soft Cap' and 'Hard Cap' adjustments for consistency. Our tool factors in 'Course Difficulty' multipliers, ensuring your handicap index is tournament-ready across US and UK links.",
+      "step_by_step_guide": [
+        "Input the Slope and Course Rating found on your local club's scorecard.",
+        "Calculate your 'Course Handicap'—the actual number of strokes you get for that specific day.",
+        "Track your 'Best 8 of 20' rounds to see your current WHS Index trend."
+      ]
+    },
+    "backpacking-weight-calc": {
+      "id": "backpacking-weight-calc",
+      "name": "Ultralight Pack Tool",
+      "title": "Ultralight Backpacking Base Weight & Consumable Load Planner",
+      "placeholders": "Shelter Weight, Sleep System, Food Weight (Daily), Water Volume",
+      "seo_description": "Go lighter on the trail. Calculate your base weight and daily pack weight for long-distance treks in 2026.",
+      "schema_desc": "Backpacking logistics tool for high-altitude trekking.",
+      "hook": "Ultralight backpacking pack weight calculator.",
+      "local_insight": "In 2026, 'Sub-10lb' base weights are the standard for thru-hikers. Our tool factors in 'Consumable Flux'—calculating how your pack weight drops as you eat through your 2,500kcal-per-day food bag.",
+      "step_by_step_guide": [
+        "Log your 'Big 3'—Pack, Shelter, and Sleep System—to determine your core base weight.",
+        "Input your daily water needs (typically 2L - 4L) to see your 'Peak Load' weight.",
+        "Generate a weight-distribution plan for maximum comfort and spinal health on the trail."
+      ]
+    },
+    "vape-juice-mixer": {
+      "id": "vape-juice-mixer",
+      "name": "Vape DIY Mixer",
+      "title": "DIY E-Liquid Juice Mixing & Nicotine Strength Precision Calc",
+      "placeholders": "Target Strength, Target Volume, PG/VG Ratio, Flavor Drop %",
+      "seo_description": "Precision mixing for the DIY community. Calculate exact PG, VG, and nicotine amounts for custom juice recipes in 2026.",
+      "schema_desc": "Chemical mixing tool for custom liquid formulations.",
+      "hook": "DIY e-liquid juice mixing calculator 2026.",
+      "local_insight": "Stay safe while mixing. In 2026, DIY precision is vital due to strict nicotine purity standards. Our tool factors in the 'Specific Gravity' of VG vs. PG to ensure your mg/ml ratio is 100% accurate.",
+      "step_by_step_guide": [
+        "Input your target nicotine strength and the tool calculates the exact 'Nic Base' volume needed.",
+        "Balance your PG/VG ratio for 'Flavor' vs. 'Vapor' based on your hardware specs.",
+        "Calculate the cost-saving ROI of DIY mixing vs. retail prices—often saving up to 80%."
+      ]
+    },
+    "garden-soil-volume": {
+      "id": "garden-soil-volume",
+      "name": "Soil Volume Tool",
+      "title": "Raised Garden Bed Soil Volume & Organic Compost Ratio Calc",
+      "placeholders": "Bed Length (ft), Bed Width, Soil Depth, Number of Beds",
+      "seo_description": "Plan your organic garden. Calculate exactly how much soil and mulch you need for your raised beds in 2026.",
+      "schema_desc": "Agricultural volume calculator for residential gardening.",
+      "hook": "Raised bed soil volume calculator 2026.",
+      "local_insight": "Soil health in 2026 is about 'No-Till' nutrition. Our tool factors in the 'Soil Compaction' rate (typically 15% settling), ensuring you don't under-order when filling your new garden beds.",
+      "step_by_step_guide": [
+        "Input your bed dimensions; the tool outputs cubic yards and '40lb bag' counts.",
+        "Allocate a 30% organic compost mix to ensure immediate nutrient availability for your crops.",
+        "Calculate the cost-benefit of bulk soil delivery vs. bagged soil based on current 2026 rates."
+      ]
+    },
+    "tax-nomad-portugal": {
+      "id": "tax-nomad-portugal",
+      "name": "Portugal Tax Tool",
+      "title": "Portugal Digital Nomad Tax & NHR 2.0 Take-Home Estimator",
+      "placeholders": "Foreign Income (€), Self-Employed Expenses, NHR Status, Social Security",
+      "seo_description": "Moving to Portugal? Calculate your net income under the new 2026 NHR 2.0 and Digital Nomad Visa tax rules.",
+      "schema_desc": "Financial tool for expats and digital nomads in Portugal.",
+      "hook": "Portugal digital nomad tax calculator 2026.",
+      "local_insight": "Portugal's NHR 2.0 in 2026 requires a 'High Value Activity'. If you qualify, your 20% flat rate is a huge ROI boost. Factors in the 25% 'Seguran?a Social' cap and local Lisbon/Porto cost-of-living index.",
+      "step_by_step_guide": [
+        "Determine your 'High Value Professional' eligibility for the 20% NHR 2.0 flat rate.",
+        "Calculate your net take-home pay after Portugal's mandatory social security contributions.",
+        "Contrast your net income with local rent and grocery costs to see your 'Nomad Lifestyle ROI'."
+      ]
+    },
+    "real-estate-berlin-yield": {
+      "id": "real-estate-berlin-yield",
+      "name": "Berlin Rental ROI",
+      "title": "Berlin Property Investment ROI & Mietpreisbremse (Rent Cap) Tool",
+      "placeholders": "Property Price (€), Monthly Rent, Management Fee, Renovation Fund",
+      "seo_description": "Invest in the German capital. Calculate rental yields in Berlin while factoring in the Mietpreisbremse rent cap and local laws in 2026.",
+      "schema_desc": "German-specific property investment tool for the Berlin market.",
+      "hook": "Berlin rental yield and rent cap calculator.",
+      "local_insight": "Berlin in 2026 is a 'Lender's Market'. With high demand but strict rent caps (Mietpreisbremse), ROI is driven by 'Furnished' or 'Short-Term' exemptions. Factors in the 6% Kaufnebenkosten (closing costs).",
+      "step_by_step_guide": [
+        "Check the 'Mietspiegel' for your specific Berlin district (Kiez) to stay legally compliant.",
+        "Calculate net yield after factoring in the 2% annual maintenance reserve for Altbau properties.",
+        "Analyze the ROI of 'Commercial-to-Residential' conversions currently trending in Berlin."
+      ]
+    },
+    "solar-london-efficiency": {
+      "id": "solar-london-efficiency",
+      "name": "London Solar ROI",
+      "title": "London Solar ROI & UK Smart Export Guarantee (SEG) Estimator",
+      "placeholders": "Install Cost (￡), Annual Sunlight Hours, SEG Rate, Bill Savings",
+      "seo_description": "Calculate solar savings in London. Factors in the UK's Smart Export Guarantee (SEG) and 2026 London sunlight data.",
+      "schema_desc": "UK-specific solar ROI tool adjusted for London climate.",
+      "hook": "London solar panel ROI and bill savings calculator.",
+      "local_insight": "London isn't just clouds! In 2026, high energy prices make even low-sunlight solar ROI attractive. Factors in the 'SEG' export credits from Octopus or British Gas and the 0% VAT on solar installations.",
+      "step_by_step_guide": [
+        "Input your system size (e.g., 4kW) and apply the 'London Sunlight' coefficient (0.85).",
+        "Calculate annual savings from the 'Smart Export Guarantee' (SEG) based on current UK rates.",
+        "Determine the payback period factoring in the current 0% UK VAT incentive for solar panels."
+      ]
+    },
+    "wedding-bali-permit": {
+      "id": "wedding-bali-permit",
+      "name": "Bali Wedding Budget",
+      "title": "Bali Destination Wedding Budget & Uluwatu Villa Permit Planner",
+      "placeholders": "Guest Count, Venue Fee ($), Banjar Fee, Legal/Permit Costs",
+      "seo_description": "Planning a Bali wedding? Estimate costs for Uluwatu villas, local catering, and 2026 wedding permits.",
+      "schema_desc": "Event planning tool for the Bali destination wedding market.",
+      "hook": "How much for a Bali villa wedding? Calculator.",
+      "local_insight": "Bali weddings in 2026 require a 'Banjar' permit for any villa event. Our tool factors in the 11% VAT and 10% service charge. Pro tip: A 'Symbolic' ceremony saves you $1,000+ in Indonesian legal red tape.",
+      "step_by_step_guide": [
+        "Select your 'Villa Type' to see the mandatory Banjar (village) community fee.",
+        "Include the mandatory 21% 'Tax & Service' charge in your catering and hospitality budget.",
+        "Allocate a 10% reserve for 'Island Logistics'—transporting flowers and decor from Denpasar."
+      ]
+    },
+    "tax-california-llc": {
+      "id": "tax-california-llc",
+      "name": "CA LLC Tax Tool",
+      "title": "California LLC Tax & $800 Annual Franchise Fee Estimator",
+      "placeholders": "Annual Revenue ($), LLC Fee, Self-Employment Tax %, Expenses",
+      "seo_description": "Running a CA LLC? Calculate your state and federal tax obligations, including the mandatory $800 annual fee and 2026 brackets.",
+      "schema_desc": "California-specific business tax tool for LLC owners.",
+      "hook": "California LLC tax and $800 fee calculator.",
+      "local_insight": "California's $800 'Franchise Fee' is unavoidable. In 2026, we also factor in the 'Gross Receipts Fee' if your LLC earns over $250k. Our tool helps SF and LA founders stay compliant with the FTB (Franchise Tax Board).",
+      "step_by_step_guide": [
+        "Input your gross revenue to see if you trigger the 'Gross Receipts Fee' tier.",
+        "Factor in the mandatory $800 annual CA Franchise Tax fee due by April 15th.",
+        "Calculate net take-home pay after federal self-employment tax and CA state progressive rates."
+      ]
+    },
+    "baby-care-formula": {
+      "id": "baby-care-formula",
+      "name": "Baby Formula Tool",
+      "title": "Baby Formula Intake & Daily Feeding Schedule Precision Calc",
+      "placeholders": "Baby Weight (lbs), Age (weeks), Feedings/Day, Formula Type",
+      "seo_description": "Support for new parents. Estimate formula intake and feeding times based on standard 2026 pediatric guidelines.",
+      "schema_desc": "Parenting health tool for infant nutritional tracking.",
+      "hook": "Baby formula intake calculator 2026.",
+      "local_insight": "Data-driven parenting in 2026. This tool follows the AAP (American Academy of Pediatrics) guidelines for weight-based intake. Factors in 'Growth Spurts'—suggesting a 2oz increase during weeks 3, 6, and 12.",
+      "step_by_step_guide": [
+        "Input your baby's weight and age; the tool calculates the oz-per-day requirement.",
+        "Generate a 24-hour feeding schedule with 'Dream Feed' reminders to help your baby sleep longer.",
+        "Calculate the monthly formula budget based on current 2026 retail price indices."
+      ]
+    }
+}

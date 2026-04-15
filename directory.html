@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solutions Directory | NicheCalcCrusher</title>
+    <meta name="keywords" content="Solutions Directory, Niche Calculators, Industry Solutions, Location-Based Calculators">
+    <meta name="description" content="A comprehensive directory of niche calculators organized by industry and location">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='%2339FF14'%3E%3Cpath d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z'/%3E%3C/svg%3E" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000000;
+            color: #FFFFFF;
+            font-family: 'JetBrains Mono', monospace;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* 网格背景 */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            min-height: 100vh;
+        }
+
+        /* 标题样式 */
+        .title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: clamp(20px, 5vw, 36px);
+            text-align: center;
+            margin-bottom: 60px;
+            color: #FFFFFF;
+            text-shadow: none;
+            line-height: 1.5;
+        }
+
+        /* 分类标题 */
+        .category-title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 24px;
+            margin: 40px 0 20px 0;
+            color: #FFFFFF;
+            text-shadow: none;
+            border-bottom: 2px solid #FFFFFF;
+            padding-bottom: 10px;
+        }
+
+        /* 子分类标题 */
+        .subcategory-title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 18px;
+            margin: 30px 0 15px 0;
+            color: #FFFFFF;
+            text-shadow: none;
+        }
+
+        /* 链接列表 */
+        .link-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0 0 30px 0;
+        }
+
+        .link-list li {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 1px solid #FFFFFF;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .link-list li:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+            transform: translateX(5px);
+        }
+
+        .link-list a {
+            color: #FFFFFF;
+            text-decoration: none;
+            display: block;
+        }
+
+        .link-list a:hover {
+            color: #ffffff;
+        }
+
+        /* 网格布局 */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .grid-item {
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 1px solid #FFFFFF;
+            border-radius: 5px;
+            padding: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .grid-item:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+            transform: translateY(-5px);
+        }
+
+        .grid-item h3 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: #FFFFFF;
+        }
+
+        .grid-item a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .grid-item a:hover {
+            color: #ffffff;
+        }
+
+        /* 按钮样式 */
+        .btn {
+            background-color: #8A2BE2;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 14px;
+            padding: 15px 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+            display: inline-block;
+            margin: 20px 0;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #FFFFFF;
+            color: #000000;
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+            transform: scale(1.05);
+        }
+
+        /* 回到顶部按钮 */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #8A2BE2;
+            color: #ffffff;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        }
+
+        .back-to-top:hover {
+            background-color: #39FF14;
+            color: #000000;
+            box-shadow: 0 0 30px rgba(57, 255, 20, 0.8);
+            transform: scale(1.1);
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 15px;
+            }
+
+            .title {
+                font-size: 20px;
+                margin-bottom: 40px;
+            }
+
+            .category-title {
+                font-size: 18px;
+            }
+
+            .subcategory-title {
+                font-size: 14px;
+            }
+
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">SOLUTIONS DIRECTORY</h1>
+        
+        <a href="index.html" class="btn">BACK TO HOME</a>
+        
+        <!-- 按行业分类 -->
+        <h2 class="category-title">BY INDUSTRY</h2>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <h3 class="subcategory-title">Gardening & Home</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Gardening Atlanta Soil</h3>
+                <a href="pages/gardening-atlanta-soil.html">View Calculator</a>
+            </div>
+        </div><h3 class="subcategory-title">Vaping & Lifestyle</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Vaping California Mix</h3>
+                <a href="pages/vaping-california-mix.html">View Calculator</a>
+            </div>
+        </div><h3 class="subcategory-title">Sustainability & Green Living</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Rooftop Garden Nyc</h3>
+                <a href="pages/rooftop-garden-nyc.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Sustainability London Carbon</h3>
+                <a href="pages/sustainability-london-carbon.html">View Calculator</a>
+            </div>
+        </div><h3 class="subcategory-title">Family & Parenting</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Childcare London Cost</h3>
+                <a href="pages/childcare-london-cost.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Baby Houston Pediatric</h3>
+                <a href="pages/baby-houston-pediatric.html">View Calculator</a>
+            </div>
+        </div><h3 class="subcategory-title">Sports & Recreation</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Golf Scotland</h3>
+                <a href="pages/golf-scotland.html">View Calculator</a>
+            </div>
+        </div><h3 class="subcategory-title">Gaming & Entertainment</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Gaming Tokyo</h3>
+                <a href="pages/gaming-tokyo.html">View Calculator</a>
+            </div>
+        </div><h3 class="subcategory-title">Travel & Lifestyle</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Vanlife Oregon</h3>
+                <a href="pages/vanlife-oregon.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Backpacking Colorado Ultralight</h3>
+                <a href="pages/backpacking-colorado-ultralight.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Vanlife Australia Budget</h3>
+                <a href="pages/vanlife-australia-budget.html">View Calculator</a>
+            </div>
+        </div><h3 class="subcategory-title">E-Commerce & Retail</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Amazon Fba Global</h3>
+                <a href="pages/amazon-fba-global.html">View Calculator</a>
+            </div>
+        </div><h3 class="subcategory-title">Pet Care</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Pet Health Sf</h3>
+                <a href="pages/pet-health-sf.html">View Calculator</a>
+            </div>
+        </div><h3 class="subcategory-title">Crypto & Blockchain</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Crypto London Hmrc</h3>
+                <a href="pages/crypto-london-hmrc.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Crypto Germany Hold</h3>
+                <a href="pages/crypto-germany-hold.html">View Calculator</a>
+            </div>
+        </div><h3 class="subcategory-title">Business & Entrepreneurship</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Business Seattle</h3>
+                <a href="pages/business-seattle.html">View Calculator</a>
+            </div>
+        </div><h3 class="subcategory-title">Solar & Energy</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Solar Queensland</h3>
+                <a href="pages/solar-queensland.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Solar Brisbane Roi</h3>
+                <a href="pages/solar-brisbane-roi.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Solar Sydney</h3>
+                <a href="pages/solar-sydney.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Solar Denver</h3>
+                <a href="pages/solar-denver.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Solar Adelaide</h3>
+                <a href="pages/solar-adelaide.html">View Calculator</a>
+            </div>
+        </div><h3 class="subcategory-title">Real Estate & Property</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>London Rental Yield</h3>
+                <a href="solutions.html?id=real-estate-london">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Real Estate London Sdlt</h3>
+                <a href="pages/real-estate-london-sdlt.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Mortgage Auckland Lvr</h3>
+                <a href="pages/mortgage-auckland-lvr.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Rental Yield Dublin Rtb</h3>
+                <a href="pages/rental-yield-dublin-rtb.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Real Estate Dallas Tax</h3>
+                <a href="pages/real-estate-dallas-tax.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Real Estate Vancouver</h3>
+                <a href="pages/real-estate-vancouver.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Real Estate Boston</h3>
+                <a href="pages/real-estate-boston.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Real Estate Atlanta</h3>
+                <a href="pages/real-estate-atlanta.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Real Estate Chicago</h3>
+                <a href="pages/real-estate-chicago.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Real Estate Manchester</h3>
+                <a href="pages/real-estate-manchester.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Mortgage Sydney</h3>
+                <a href="pages/mortgage-sydney.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Austin Property ROI</h3>
+                <a href="solutions.html?id=real-estate-austin">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Calgary Property ROI</h3>
+                <a href="solutions.html?id=real-estate-calgary-ab">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Nashville STR Permit</h3>
+                <a href="solutions.html?id=real-estate-nashville-str">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Perth Solar Sponge</h3>
+                <a href="solutions.html?id=real-estate-perth-solar">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Brisbane FHOG</h3>
+                <a href="solutions.html?id=real-estate-brisbane-fhog">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Philadelphia Tax Abatement</h3>
+                <a href="solutions.html?id=real-estate-philly-abatement">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Brisbane Olympics</h3>
+                <a href="solutions.html?id=real-estate-brisbane-olympics">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Berlin Mietpreisbremse</h3>
+                <a href="solutions.html?id=real-estate-berlin-yield">View Calculator</a>
+            </div>
+        </div>
+        
+        <h3 class="subcategory-title">Tax & Finance</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Singapore Income Tax</h3>
+                <a href="solutions.html?id=tax-singapore">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Tax Portugal Nhr</h3>
+                <a href="pages/tax-portugal-nhr.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Dividend Uk Isa</h3>
+                <a href="pages/dividend-uk-isa.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Tax Toronto Dividend</h3>
+                <a href="pages/tax-toronto-dividend.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Tax Seattle Rsu</h3>
+                <a href="pages/tax-seattle-rsu.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Tax Singapore Iras</h3>
+                <a href="pages/tax-singapore-iras.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Dividend Investing Us</h3>
+                <a href="pages/dividend-investing-us.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Tax London Freelance</h3>
+                <a href="pages/tax-london-freelance.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Tax Houston Nomad</h3>
+                <a href="pages/tax-houston-nomad.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>California Freelance Tax</h3>
+                <a href="solutions.html?id=tax-california">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>UK Crypto CGT</h3>
+                <a href="solutions.html?id=tax-uk-cgt-crypto">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Portugal Nomad Tax</h3>
+                <a href="solutions.html?id=tax-portugal-nomad">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Seattle Tech RSU</h3>
+                <a href="solutions.html?id=tax-seattle-amazon">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Canada Ontario Business</h3>
+                <a href="solutions.html?id=tax-canada-ontario">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>UK ISA Dividend</h3>
+                <a href="solutions.html?id=tax-uk-isa-dividend">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Seattle Capital Gains</h3>
+                <a href="solutions.html?id=tax-seattle-capitalgains">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Portugal NHR</h3>
+                <a href="solutions.html?id=tax-nomad-portugal">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>California LLC Tax</h3>
+                <a href="solutions.html?id=tax-california-llc">View Calculator</a>
+            </div>
+        </div>
+        
+        <h3 class="subcategory-title">Solar & Renewable Energy</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Texas Solar ROI</h3>
+                <a href="solutions.html?id=solar-texas">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Spain Solar Grants</h3>
+                <a href="solutions.html?id=solar-barcelona-grants">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Phoenix Solar Battery</h3>
+                <a href="solutions.html?id=solar-phoenix-battery">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Barcelona NextGen</h3>
+                <a href="solutions.html?id=solar-barcelona-nextgen">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>London Solar Efficiency</h3>
+                <a href="solutions.html?id=solar-london-efficiency">View Calculator</a>
+            </div>
+        </div>
+        
+        <h3 class="subcategory-title">Wedding & Events</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>NYC Wedding Budget</h3>
+                <a href="solutions.html?id=wedding-nyc">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Wedding Bali Villa</h3>
+                <a href="pages/wedding-bali-villa.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Wedding Rome</h3>
+                <a href="pages/wedding-rome.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Wedding Maui</h3>
+                <a href="pages/wedding-maui.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Wedding Paris</h3>
+                <a href="pages/wedding-paris.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Santorini Wedding</h3>
+                <a href="solutions.html?id=wedding-santorini">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Bali Villa Wedding</h3>
+                <a href="solutions.html?id=wedding-bali-uluwatu">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Las Vegas Chapel</h3>
+                <a href="solutions.html?id=wedding-lasvegas-chapel">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Santorini Curfew</h3>
+                <a href="solutions.html?id=wedding-santorini-curfew">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Bali Banjar</h3>
+                <a href="solutions.html?id=wedding-bali-banjar">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Bali Permit</h3>
+                <a href="solutions.html?id=wedding-bali-permit">View Calculator</a>
+            </div>
+        </div>
+        
+        <h3 class="subcategory-title">Fitness & Health</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Keto Macro Calculator</h3>
+                <a href="solutions.html?id=keto">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Fitness Sydney Hydration</h3>
+                <a href="pages/fitness-sydney-hydration.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Fitness Miami</h3>
+                <a href="pages/fitness-miami.html">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>NYC HIIT Tracker</h3>
+                <a href="solutions.html?id=fitness-nyc-hiit">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Sydney Beach Fitness</h3>
+                <a href="solutions.html?id=fitness-sydney-bondi">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>LA Biohack</h3>
+                <a href="solutions.html?id=fitness-la-biohack">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Baby Formula Intake</h3>
+                <a href="solutions.html?id=baby-houston-heat">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Baby Care Formula</h3>
+                <a href="solutions.html?id=baby-care-formula">View Calculator</a>
+            </div>
+        </div>
+        
+        <h3 class="subcategory-title">Business & Startup</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Airbnb Profitability</h3>
+                <a href="solutions.html?id=airbnb">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>SaaS LTV & Churn</h3>
+                <a href="solutions.html?id=saas">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Berlin Startup ESOP</h3>
+                <a href="solutions.html?id=business-berlin-esop">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Florida Airbnb Profit</h3>
+                <a href="solutions.html?id=airbnb-florida">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Toronto Mars</h3>
+                <a href="solutions.html?id=business-toronto-mars">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Dublin MNC Tax</h3>
+                <a href="solutions.html?id=business-dublin-mnctax">View Calculator</a>
+            </div>
+        </div>
+        
+        <h3 class="subcategory-title">Crypto & Investment</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Dubai Crypto Profit</h3>
+                <a href="solutions.html?id=crypto-dubai">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Miami Crypto 305</h3>
+                <a href="solutions.html?id=crypto-miami-305">View Calculator</a>
+            </div>
+        </div>
+        
+        <h3 class="subcategory-title">Lifestyle & Hobby</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Australia Van Budget</h3>
+                <a href="solutions.html?id=vanlife-australia">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Oregon Van Budget</h3>
+                <a href="solutions.html?id=vanlife-portland-blm">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Atlanta Soil Volume</h3>
+                <a href="solutions.html?id=garden-atlanta-clay">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Coffee Brewing Ratio</h3>
+                <a href="solutions.html?id=coffee-barista-ratio">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Golf Handicap WHS</h3>
+                <a href="solutions.html?id=golf-handicap-whs">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Backpacking Weight</h3>
+                <a href="solutions.html?id=backpacking-weight-calc">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Vape Juice Mixer</h3>
+                <a href="solutions.html?id=vape-juice-mixer">View Calculator</a>
+            </div>
+            <div class="grid-item">
+                <h3>Garden Soil Volume</h3>
+                <a href="solutions.html?id=garden-soil-volume">View Calculator</a>
+            </div>
+        </div>
+        
+        <!-- 按地理位置分类 -->
+        <h2 class="category-title">BY GEOGRAPHY</h2>
+        
+        <h3 class="subcategory-title">North America</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Texas</h3>
+                <a href="solutions.html?id=solar-texas">Solar ROI</a>
+            </div>
+            <div class="grid-item">
+                <h3>California</h3>
+                <a href="solutions.html?id=tax-california">Freelance Tax</a>
+            </div>
+            <div class="grid-item">
+                <h3>New York</h3>
+                <a href="solutions.html?id=wedding-nyc">Wedding Budget</a>
+            </div>
+            <div class="grid-item">
+                <h3>Florida</h3>
+                <a href="solutions.html?id=airbnb-florida">Airbnb Profit</a>
+            </div>
+            <div class="grid-item">
+                <h3>Washington</h3>
+                <a href="solutions.html?id=tax-seattle-amazon">Tech RSU Tax</a>
+            </div>
+            <div class="grid-item">
+                <h3>Tennessee</h3>
+                <a href="solutions.html?id=real-estate-nashville-str">Nashville STR</a>
+            </div>
+            <div class="grid-item">
+                <h3>Arizona</h3>
+                <a href="solutions.html?id=solar-phoenix-battery">Solar Battery</a>
+            </div>
+            <div class="grid-item">
+                <h3>Texas</h3>
+                <a href="solutions.html?id=baby-houston-heat">Baby Formula</a>
+            </div>
+            <div class="grid-item">
+                <h3>Pennsylvania</h3>
+                <a href="solutions.html?id=real-estate-philly-abatement">Tax Abatement</a>
+            </div>
+            <div class="grid-item">
+                <h3>Georgia</h3>
+                <a href="solutions.html?id=garden-atlanta-clay">Soil Volume</a>
+            </div>
+            <div class="grid-item">
+                <h3>Nevada</h3>
+                <a href="solutions.html?id=wedding-lasvegas-chapel">Vegas Wedding</a>
+            </div>
+            <div class="grid-item">
+                <h3>Oregon</h3>
+                <a href="solutions.html?id=vanlife-portland-blm">Van Life</a>
+            </div>
+        </div>
+        
+        <h3 class="subcategory-title">Europe</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>United Kingdom</h3>
+                <a href="solutions.html?id=real-estate-london">London Rental</a>
+            </div>
+            <div class="grid-item">
+                <h3>Germany</h3>
+                <a href="solutions.html?id=business-berlin-esop">Berlin ESOP</a>
+            </div>
+            <div class="grid-item">
+                <h3>Spain</h3>
+                <a href="solutions.html?id=solar-barcelona-grants">Solar Grants</a>
+            </div>
+            <div class="grid-item">
+                <h3>Greece</h3>
+                <a href="solutions.html?id=wedding-santorini">Santorini Wedding</a>
+            </div>
+            <div class="grid-item">
+                <h3>Portugal</h3>
+                <a href="solutions.html?id=tax-portugal-nomad">Nomad Tax</a>
+            </div>
+            <div class="grid-item">
+                <h3>Ireland</h3>
+                <a href="solutions.html?id=business-dublin-mnctax">Dublin MNC</a>
+            </div>
+        </div>
+        
+        <h3 class="subcategory-title">Asia</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Singapore</h3>
+                <a href="solutions.html?id=tax-singapore">Income Tax</a>
+            </div>
+            <div class="grid-item">
+                <h3>UAE</h3>
+                <a href="solutions.html?id=crypto-dubai">Crypto Profit</a>
+            </div>
+            <div class="grid-item">
+                <h3>Indonesia</h3>
+                <a href="solutions.html?id=wedding-bali-uluwatu">Bali Wedding</a>
+            </div>
+        </div>
+        
+        <h3 class="subcategory-title">Oceania</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Australia</h3>
+                <a href="solutions.html?id=vanlife-australia">Van Life</a>
+            </div>
+            <div class="grid-item">
+                <h3>Australia</h3>
+                <a href="solutions.html?id=fitness-sydney-bondi">Beach Fitness</a>
+            </div>
+            <div class="grid-item">
+                <h3>Australia</h3>
+                <a href="solutions.html?id=real-estate-perth-solar">Perth Solar</a>
+            </div>
+            <div class="grid-item">
+                <h3>Australia</h3>
+                <a href="solutions.html?id=real-estate-brisbane-fhog">Brisbane FHOG</a>
+            </div>
+        </div>
+        
+        <h3 class="subcategory-title">Canada</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Alberta</h3>
+                <a href="solutions.html?id=real-estate-calgary-ab">Calgary Property</a>
+            </div>
+            <div class="grid-item">
+                <h3>Ontario</h3>
+                <a href="solutions.html?id=tax-canada-ontario">Business Tax</a>
+            </div>
+            <div class="grid-item">
+                <h3>Ontario</h3>
+                <a href="solutions.html?id=business-toronto-mars">Toronto Mars</a>
+            </div>
+        </div>
+        
+        <a href="index.html" class="btn">BACK TO HOME</a>
+    </div>
+    
+    <a href="#" class="back-to-top" id="backToTop">↑</a>
+    
+    <script>
+        // 回到顶部按钮
+        document.getElementById('backToTop').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        
+        // 滚动时显示/隐藏回到顶部按钮
+        window.addEventListener('scroll', function() {
+            const backToTop = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTop.style.display = 'flex';
+            } else {
+                backToTop.style.display = 'none';
+            }
+        });
+    </script>
+    
+    <!-- Privacy Assurance Footer -->
+    <footer class="container" style="margin-top: 40px; margin-bottom: 20px; text-align: center; font-size: 14px;">
+        <p><a href="https://www.wangdadi.xyz" style="color: #FFFFFF; text-decoration: none;">Home</a> | No data leaves your browser. 100% Serverless. Built for the modern web.</p>
+        <p style="margin-top: 5px;">Support: 457239850@qq.com</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NicheCalcCrusher | All Solutions</title>
+    <meta name="description" content="Browse all custom calculator solutions for various niches and industries. Find the perfect calculator for your blog or website." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='%2339FF14'%3E%3Cpath d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z'/%3E%3C/svg%3E" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000000;
+            color: #39FF14;
+            font-family: 'JetBrains Mono', monospace;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* 网格背景 */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(to right, rgba(57, 255, 20, 0.1) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(57, 255, 20, 0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            min-height: 100vh;
+        }
+
+        /* 标题样式 */
+        .title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: clamp(20px, 5vw, 30px);
+            text-align: center;
+            margin-bottom: 60px;
+            color: #39FF14;
+            text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;
+            animation: shake 0.5s ease-in-out infinite alternate;
+            line-height: 1.5;
+        }
+
+        @keyframes shake {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(2px) translateY(1px);
+            }
+        }
+
+        /* 解决方案列表 */
+        .solutions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .solution-card {
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 1px solid #39FF14;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(57, 255, 20, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .solution-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 25px rgba(57, 255, 20, 0.5);
+        }
+
+        .solution-card h3 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: #39FF14;
+        }
+
+        .solution-card p {
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .solution-card a {
+            color: #39FF14;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .solution-card a:hover {
+            color: #8A2BE2;
+            text-decoration: underline;
+        }
+
+        /* 回到首页链接 */
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 40px;
+            color: #39FF14;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: #8A2BE2;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 15px;
+            }
+
+            .title {
+                font-size: 18px;
+                margin-bottom: 40px;
+            }
+
+            .solutions-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">ALL SOLUTIONS</h1>
+        
+        <div class="solutions-grid">
+
+            <div class="solution-card">
+                <h3>San Francisco & Bay Area Solar ROI: NEM 3.0 Savings Tool</h3>
+                <p>Estimate your solar savings under California's NEM 3.0 rules. Designed for San Jose, SF, and Oakland...</p>
+                <a href="solutions.html?id=solar-california-bay-area">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Golf Handicap & Stroke Efficiency Calculator for Sports Blogs</h3>
+                <p>Improve your golf game with data. This calculator helps golfers track their handicap index and ident...</p>
+                <a href="solutions.html?id=golf">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>E-Liquid DIY Juice Mixing Calculator for Vape Communities</h3>
+                <p>For the DIY vape community. This precision tool calculates exact PG, VG, and nicotine amounts for cu...</p>
+                <a href="solutions.html?id=vaping">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Austin Rental Property ROI & Property Tax Estimator</h3>
+                <p>Calculate cash flow in the Silicon Hills. Factors in Austin's specific property tax rates and rapid ...</p>
+                <a href="solutions.html?id=real-estate-austin">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>New York State & NYC Combined Income Tax Calculator</h3>
+                <p>Calculate your net take-home pay in NY. Factors in State and City-specific tax brackets for accurate...</p>
+                <a href="solutions.html?id=tax-new-york-state">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Dog Calorie & Raw Food Intake Calculator for Pet Influencers</h3>
+                <p>Pet owners demand precision. Add a dog calorie calculator to your pet blog to provide personalized f...</p>
+                <a href="solutions.html?id=pet-health">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Ultralight Backpack Base Weight Calculator for Hiking Blogs</h3>
+                <p>Help hikers go ultralight. This tool calculates base weight and total pack weight, ensuring a balanc...</p>
+                <a href="solutions.html?id=backpacking">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>LA Fitness & Body Fat Calculator: Tailored for High-Activity Lifestyles</h3>
+                <p>Calculate your macros based on the active LA lifestyle. From Santa Monica runs to Gold's Gym session...</p>
+                <a href="solutions.html?id=fitness-los-angeles">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Personal Carbon Footprint & Impact Calculator for Green Blogs</h3>
+                <p>Engage eco-conscious readers. This tool helps visualize personal environmental impact and provides d...</p>
+                <a href="solutions.html?id=sustainability">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Professional Airbnb Profitability & ROI Calculator for Real Estate Blogs</h3>
+                <p>Empower your real estate audience with an Airbnb ROI tool. Perfect for property investors looking to...</p>
+                <a href="solutions.html?id=airbnb">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Seattle Tech Salary & Cost of Living Optimizer</h3>
+                <p>Comparing a tech offer in Seattle? Calculate your real take-home pay with WA's 0% income tax and hig...</p>
+                <a href="solutions.html?id=business-seattle">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Soil Volume & Raised Bed Calculator for Sustainable Gardeners</h3>
+                <p>Perfect for homesteading blogs. Help your readers calculate exactly how many bags of soil or compost...</p>
+                <a href="solutions.html?id=gardening">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Rental Yield & Stamp Duty Calculator for London Landlords</h3>
+                <p>Calculate London property ROI with precision. This tool factors in UK Stamp Duty and London's unique...</p>
+                <a href="solutions.html?id=real-estate-london">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Queensland Solar Savings Calculator: Sunshine State ROI</h3>
+                <p>Maximize your savings in the Sunshine State. Calculate the ROI of solar in QLD with current feed-in ...</p>
+                <a href="solutions.html?id=solar-australia-queensland">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Miami Crypto Trader Profit & Zero-State-Tax ROI Calculator</h3>
+                <p>Calculate your crypto gains in the world's crypto capital. See how Florida's tax laws benefit your t...</p>
+                <a href="solutions.html?id=crypto-miami">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>SaaS LTV & Churn Rate Calculator for B2B Growth Marketers</h3>
+                <p>Help your startup audience master their metrics. This SaaS calculator helps founders visualize Lifet...</p>
+                <a href="solutions.html?id=saas">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Amazon FBA Profit Margin Calculator for E-commerce Mentors</h3>
+                <p>The ultimate tool for Amazon sellers. Calculate net profit after all fees and ad spend to find the m...</p>
+                <a href="solutions.html?id=amazon-fba">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>The Ultimate Keto Macro Calculator Generator for Fitness Bloggers</h3>
+                <p>Boost your fitness blog engagement with a bespoke Keto Macro Calculator. In 2025, interactive health...</p>
+                <a href="solutions.html?id=keto">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Vancouver Mortgage & Empty Homes Tax Impact Tool</h3>
+                <p>Navigate Vancouver's property laws. Calculate ROI while factoring in the Empty Homes Tax and BC luxu...</p>
+                <a href="solutions.html?id=real-estate-vancouver">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Freelance Hourly Rate & Income Goal Calculator for Digital Nomads</h3>
+                <p>Stop undercharging. This tool helps freelancers and solopreneurs set professional rates that cover t...</p>
+                <a href="solutions.html?id=freelance">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Crypto DCA & Profit ROI Calculator for Web3 Communities</h3>
+                <p>Help your crypto audience track their gains. This interactive tool calculates PnL and Dollar Cost Av...</p>
+                <a href="solutions.html?id=crypto">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Solar Panel ROI & Energy Savings Estimator for Home Blogs</h3>
+                <p>Home improvement bloggers can now provide instant solar ROI estimates. Help homeowners calculate the...</p>
+                <a href="solutions.html?id=solar">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Sydney Mortgage Repayment & Stamp Duty Tool for First Home Buyers</h3>
+                <p>Sydney real estate is complex. Use this tool to calculate repayments and NSW Stamp Duty concessions ...</p>
+                <a href="solutions.html?id=mortgage-sydney">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Interactive Wedding Budget & Guest Count Planner for Life Bloggers</h3>
+                <p>Wedding planning is stressful. Provide your readers with a budget breakdown tool that helps them all...</p>
+                <a href="solutions.html?id=wedding">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Dividend Reinvestment (DRIP) Calculator for FIRE Blogs</h3>
+                <p>Financial Independence Retire Early (FIRE) starts with dividends. Help your readers project their pa...</p>
+                <a href="solutions.html?id=dividend">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Manchester Buy-to-Let Yield & Growth Estimator</h3>
+                <p>Northern Powerhouse investment tool. Calculate rental yields for Manchester city center and suburban...</p>
+                <a href="solutions.html?id=real-estate-manchester">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Florida Vacation Rental Profitability & Tourist Tax Calculator</h3>
+                <p>Estimate Airbnb ROI in Florida. Includes considerations for seasonal occupancy and local county-leve...</p>
+                <a href="solutions.html?id=airbnb-florida">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Texas Solar ROI Estimator: Calculate Savings with Federal & TX Incentives</h3>
+                <p>Texas homeowners can estimate solar payback periods. Includes local utility buy-back rates and Texas...</p>
+                <a href="solutions.html?id=solar-texas">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Self-Employment Tax & Side Hustle Profit Estimator for Freelancers</h3>
+                <p>Don't get surprised by taxes. This tool estimates self-employment tax obligations for freelancers in...</p>
+                <a href="solutions.html?id=tax-side-hustle">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Off-Grid Solar Load & Daily Budget Calculator for Van Life Blogs</h3>
+                <p>Van life is about resource management. Help nomads calculate their solar power needs and daily livin...</p>
+                <a href="solutions.html?id=van-life">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Melbourne Property Investment & Victoria Stamp Duty Tool</h3>
+                <p>Investment tool for Melbourne landlords. Factors in Victoria's land tax changes and stamp duty rates...</p>
+                <a href="solutions.html?id=mortgage-melbourne">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Denver High-Altitude Calorie & Hydration Calculator</h3>
+                <p>Burn more at altitude. Calculate your calorie and water needs for Colorado's 14ers and outdoor lifes...</p>
+                <a href="solutions.html?id=health-denver">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Golden Ratio Coffee Brew Calculator for Specialty Coffee Fans</h3>
+                <p>Precision brewing for coffee nerds. This tool calculates the exact water and coffee weights needed f...</p>
+                <a href="solutions.html?id=coffee">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>NYC Luxury Wedding Budget Planner & Venue Cost Estimator</h3>
+                <p>Planning a wedding in NYC? Calculate your costs based on current Manhattan and Brooklyn venue pricin...</p>
+                <a href="solutions.html?id=wedding-nyc">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>GTA Wedding Planner & Ontario Venue Tax Calculator</h3>
+                <p>Estimate your Toronto and GTA wedding costs including Ontario's 13% HST and current vendor pricing....</p>
+                <a href="solutions.html?id=wedding-toronto">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Chicago Wedding Budget & Windy City Venue Cost Tool</h3>
+                <p>Estimate your Chicago wedding costs. Includes average pricing for Loop venues and catering services ...</p>
+                <a href="solutions.html?id=wedding-chicago">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>California Freelance Tax & Take-Home Pay Estimator</h3>
+                <p>Estimate your California state and federal tax obligations for freelance income. Essential for Silic...</p>
+                <a href="solutions.html?id=tax-california">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>PC Power Consumption & Electricity Cost Calculator for Tech Blogs</h3>
+                <p>Gaming can be expensive. Help your tech audience estimate the annual electricity cost of their high-...</p>
+                <a href="solutions.html?id=gaming">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Toronto Tech Startup Runway & Burn Rate Calculator</h3>
+                <p>Calculate runway for your Toronto-based startup. Factors in GTA office costs and Canadian payroll ta...</p>
+                <a href="solutions.html?id=business-toronto">View Solution</a>
+            </div>
+
+            <div class="solution-card">
+                <h3>Baby Formula Intake & Feeding Schedule Calculator for Mom Blogs</h3>
+                <p>Support new parents with data. This tool estimates daily formula or breast milk needs based on pedia...</p>
+                <a href="solutions.html?id=baby-care">View Solution</a>
+            </div>
+
+        </div>
+        
+        <a href="index.html" class="back-link">← Back to Home</a>
+    </div>
+</body>
+</html>
